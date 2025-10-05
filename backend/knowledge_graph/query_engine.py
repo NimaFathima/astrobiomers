@@ -7,6 +7,19 @@ from neo4j import GraphDatabase
 from typing import List, Dict, Any, Optional
 import os
 import logging
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env files
+# Try multiple locations
+env_paths = [
+    Path(__file__).parent.parent.parent / ".env",  # Root level
+    Path(__file__).parent.parent / ".env",          # Backend level
+]
+for env_path in env_paths:
+    if env_path.exists():
+        load_dotenv(env_path)
+        break
 
 logger = logging.getLogger(__name__)
 

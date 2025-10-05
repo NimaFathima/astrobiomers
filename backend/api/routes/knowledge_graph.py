@@ -245,6 +245,151 @@ class SearchResult(BaseModel):
     relevance: float
 
 
+@router.get("/knowledge-graph")
+async def get_knowledge_graph(q: str = Query(..., min_length=1)):
+    """
+    Get knowledge graph for a search query
+    Returns nodes and edges for visualization
+    """
+    try:
+        qe = get_query_engine()
+        
+        # Search for entities and papers matching the query
+        # Exclude demo papers and deduplicate
+        search_query = """
+        MATCH (n)
+        WHERE (toLower(n.name) CONTAINS toLower($query) 
+           OR toLower(n.title) CONTAINS toLower($query) 
+           OR toLower(n.description) CONTAINS toLower($query))
+        AND NOT (n.id STARTS WITH 'DEMO' OR n.pmid STARTS WITH 'DEMO')
+        WITH DISTINCT 
+            CASE 
+                WHEN 'Paper' IN labels(n) THEN coalesce(n.id, n.pmid, toString(id(n)))
+                ELSE toString(id(n))
+            END as nodeKey,
+            n
+        ORDER BY nodeKey
+        LIMIT 50
+        WITH collect({node: n, key: nodeKey}) as nodes
+        UNWIND nodes as nodeData
+        WITH nodeData.node as n, nodeData.key as nKey
+        OPTIONAL MATCH (n)-[r]-(m)
+        WHERE NOT (m.id STARTS WITH 'DEMO' OR m.pmid STARTS WITH 'DEMO')
+        RETURN DISTINCT n, r, m, nKey
+        """
+        
+        results = qe.execute_query(search_query, {"query": q})
+        
+        # Build graph structure
+        nodes_dict = {}
+        edges = []
+        
+        for record in results:
+            # Process main node
+            if record.get("n"):
+                node = record["n"]
+                labels = list(node.labels)
+                props = dict(node)
+                node_type = labels[0] if labels else "Unknown"
+                
+                # Use paper ID for papers, element_id for others
+                if node_type == "Paper":
+                    node_id = props.get("id", props.get("pmid", str(node.element_id)))
+                else:
+                    node_id = str(node.element_id)
+                
+                if node_id not in nodes_dict:
+                    node_data = {
+                        "id": node_id,
+                        "label": props.get("name", props.get("title", node_id[:8])),
+                        "type": node_type.lower(),  # lowercase for frontend
+                        "group": hash(node_type) % 10 if labels else 0,
+                        **props
+                    }
+                    
+                    # Add paperId for Paper nodes
+                    if node_type == "Paper":
+                        node_data["paperId"] = node_id
+                    
+                    nodes_dict[node_id] = node_data
+            
+            # Process connected node
+            if record.get("m"):
+                node = record["m"]
+                labels = list(node.labels)
+                props = dict(node)
+                node_type = labels[0] if labels else "Unknown"
+                
+                # Use paper ID for papers, element_id for others
+                if node_type == "Paper":
+                    node_id = props.get("id", props.get("pmid", str(node.element_id)))
+                else:
+                    node_id = str(node.element_id)
+                
+                if node_id not in nodes_dict:
+                    # Build node data - include only necessary properties
+                    node_data = {
+                        "id": node_id,
+                        "label": props.get("name", props.get("title", node_id[:8])),
+                        "type": node_type.lower(),
+                        "group": hash(node_type) % 10 if labels else 0,
+                    }
+                    
+                    # Add properties selectively
+                    if "title" in props:
+                        node_data["title"] = props["title"]
+                    if "name" in props:
+                        node_data["name"] = props["name"]
+                    if "abstract" in props:
+                        node_data["abstract"] = props["abstract"]
+                    
+                    # Add paperId for Paper nodes
+                    if node_type == "Paper":
+                        node_data["paperId"] = node_id
+                    
+                    nodes_dict[node_id] = node_data
+            
+            # Process relationship
+            if record.get("r"):
+                rel = record["r"]
+                
+                # Get source node ID
+                source_node = rel.start_node
+                source_labels = list(source_node.labels)
+                source_type = source_labels[0] if source_labels else "Unknown"
+                if source_type == "Paper":
+                    source_props = dict(source_node)
+                    source_id = source_props.get("id", source_props.get("pmid", str(source_node.element_id)))
+                else:
+                    source_id = str(source_node.element_id)
+                
+                # Get target node ID
+                target_node = rel.end_node
+                target_labels = list(target_node.labels)
+                target_type = target_labels[0] if target_labels else "Unknown"
+                if target_type == "Paper":
+                    target_props = dict(target_node)
+                    target_id = target_props.get("id", target_props.get("pmid", str(target_node.element_id)))
+                else:
+                    target_id = str(target_node.element_id)
+                
+                edges.append({
+                    "source": source_id,
+                    "target": target_id,
+                    "type": rel.type,
+                    "value": 1
+                })
+        
+        return {
+            "nodes": list(nodes_dict.values()),
+            "links": edges
+        }
+        
+    except Exception as e:
+        logger.error(f"Error getting knowledge graph: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/search", response_model=List[SearchResult])
 async def search_entities(query: str = Query(..., min_length=1)):
     """Search for entities by name or description"""
@@ -284,4 +429,73 @@ async def search_entities(query: str = Query(..., min_length=1)):
         
     except Exception as e:
         logger.error(f"Error searching: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/paper/{paper_id}")
+async def get_paper(paper_id: str):
+    """Get paper details by ID"""
+    try:
+        qe = get_query_engine()
+        
+        # Query for paper by ID (could be PMID or internal ID)
+        query = """
+        MATCH (p:Paper)
+        WHERE p.id = $paper_id OR p.pmid = $paper_id OR elementId(p) = $paper_id
+        OPTIONAL MATCH (p)-[r:MENTIONS]->(e)
+        RETURN p, collect({entity: e, relationship: r}) as entities
+        """
+        
+        results = qe.execute_query(query, {"paper_id": paper_id})
+        
+        if not results:
+            raise HTTPException(status_code=404, detail=f"Paper {paper_id} not found")
+        
+        record = results[0]
+        paper = record["p"]
+        props = dict(paper)
+        
+        # Get entities mentioned in the paper
+        entities = []
+        for item in record.get("entities", []):
+            if item.get("entity"):
+                entity = item["entity"]
+                entity_props = dict(entity)
+                entities.append({
+                    "id": str(entity.element_id),
+                    "name": entity_props.get("name", "Unknown"),
+                    "type": list(entity.labels)[0] if entity.labels else "Unknown"
+                })
+        
+        # Get paper ID - could be PMID or PMC ID
+        paper_id_value = props.get("id", props.get("pmid", ""))
+        pmid_value = props.get("pmid", "")
+        
+        # Construct URL - handle both PMID and PMC IDs, skip demo papers
+        if paper_id_value and paper_id_value.startswith("DEMO"):
+            # Demo paper - no URL
+            paper_url = ""
+        elif pmid_value and not pmid_value.startswith("DEMO"):
+            paper_url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid_value}"
+        elif paper_id_value and paper_id_value.startswith("PMC"):
+            paper_url = f"https://www.ncbi.nlm.nih.gov/pmc/articles/{paper_id_value}/"
+        else:
+            paper_url = ""
+        
+        return {
+            "id": paper_id_value or str(paper.element_id),
+            "title": props.get("title", "Unknown Title"),
+            "abstract": props.get("abstract", ""),
+            "authors": props.get("authors", []),
+            "journal": props.get("journal", ""),
+            "year": props.get("year", ""),
+            "pmid": pmid_value,
+            "url": paper_url,
+            "entities": entities
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error getting paper: {e}")
         raise HTTPException(status_code=500, detail=str(e))
