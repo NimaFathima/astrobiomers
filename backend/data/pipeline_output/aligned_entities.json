@@ -1,0 +1,179 @@
+[
+  {
+    "type": "STRESSOR",
+    "text": "space mission",
+    "start": 17,
+    "end": 30,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Spaceflight",
+    "ontology_aligned": false
+  },
+  {
+    "type": "STRESSOR",
+    "text": "Microgravity",
+    "start": 0,
+    "end": 12,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Microgravity",
+    "envo_id": "ENVO:01001004",
+    "envo_label": "microgravity environment",
+    "envo_definition": "An environment with very low gravity",
+    "ontology_aligned": true
+  },
+  {
+    "type": "STRESSOR",
+    "text": "isolation",
+    "start": 50,
+    "end": 59,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Isolation",
+    "ontology_aligned": false
+  },
+  {
+    "type": "STRESSOR",
+    "text": "Spaceflight",
+    "start": 0,
+    "end": 11,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Spaceflight",
+    "envo_id": "ENVO:01001000",
+    "envo_label": "space environment",
+    "envo_definition": "Environment outside Earth's atmosphere",
+    "ontology_aligned": true
+  },
+  {
+    "type": "STRESSOR",
+    "text": "ionizing radiation",
+    "start": 19,
+    "end": 37,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Cosmic Radiation",
+    "envo_id": "ENVO:01001023",
+    "envo_label": "radiation exposure",
+    "envo_definition": "Exposure to ionizing or non-ionizing radiation",
+    "ontology_aligned": true
+  },
+  {
+    "type": "STRESSOR",
+    "text": "space radiation",
+    "start": 54,
+    "end": 69,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Cosmic Radiation",
+    "envo_id": "ENVO:01001023",
+    "envo_label": "radiation exposure",
+    "envo_definition": "Exposure to ionizing or non-ionizing radiation",
+    "ontology_aligned": true
+  },
+  {
+    "type": "STRESSOR",
+    "text": "cosmic radiation",
+    "start": 109,
+    "end": 125,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Cosmic Radiation",
+    "envo_id": "ENVO:01001024",
+    "envo_label": "cosmic ray exposure",
+    "envo_definition": "Exposure to high-energy particles from outer space",
+    "ontology_aligned": true
+  },
+  {
+    "type": "STRESSOR",
+    "text": "hindlimb unloading",
+    "start": 153,
+    "end": 171,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Simulated Microgravity",
+    "ontology_aligned": false
+  },
+  {
+    "type": "STRESSOR",
+    "text": "Altered Gravity",
+    "start": 39,
+    "end": 54,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Altered Gravity",
+    "ontology_aligned": false
+  },
+  {
+    "type": "STRESSOR",
+    "text": "confinement",
+    "start": 118,
+    "end": 129,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Isolation",
+    "ontology_aligned": false
+  },
+  {
+    "type": "STRESSOR",
+    "text": "space flight",
+    "start": 85,
+    "end": 97,
+    "confidence": 0.9,
+    "source": "Pattern",
+    "canonical_name": "Spaceflight",
+    "ontology_aligned": false
+  },
+  {
+    "type": "PHENOTYPE",
+    "text": "bone loss",
+    "start": 28,
+    "end": 37,
+    "confidence": 0.88,
+    "source": "Pattern",
+    "canonical_name": "Bone Loss",
+    "hpo_id": "HP:0000939",
+    "hpo_label": "Osteoporosis",
+    "hpo_definition": "Reduction in bone mineral density",
+    "ontology_aligned": true
+  },
+  {
+    "type": "PHENOTYPE",
+    "text": "Muscle atrophy",
+    "start": 0,
+    "end": 14,
+    "confidence": 0.88,
+    "source": "Pattern",
+    "canonical_name": "Muscle Atrophy",
+    "hpo_id": "HP:0003202",
+    "hpo_label": "Skeletal muscle atrophy",
+    "hpo_definition": "Atrophy (wasting) of skeletal muscle",
+    "ontology_aligned": true
+  },
+  {
+    "type": "PHENOTYPE",
+    "text": "skeletal unloading",
+    "start": 11,
+    "end": 29,
+    "confidence": 0.88,
+    "source": "Pattern",
+    "canonical_name": "Bone Loss",
+    "ontology_aligned": false
+  },
+  {
+    "type": "LABEL_1",
+    "text": ".",
+    "start": 77,
+    "end": 78,
+    "confidence": 0.751075804233551,
+    "source": "SciBERT"
+  },
+  {
+    "type": "LABEL_0",
+    "text": "s",
+    "start": 0,
+    "end": 1,
+    "confidence": 0.7698891162872314,
+    "source": "SciBERT"
+  }
+]

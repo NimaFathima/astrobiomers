@@ -1,0 +1,6513 @@
+[
+  {
+    "title": "Mice in Bion-M 1 space mission: training and selection",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/",
+    "pmc_id": "PMC4136787",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Mice in Bion-M 1 space mission: training and selection ",
+      "cleaned": "Mice in Bion-M 1 space mission: training and selection",
+      "sentences": [
+        {
+          "original": "Mice in Bion-M 1 space mission: training and selection",
+          "tokens": [
+            "Mice",
+            "Bion",
+            "space",
+            "mission",
+            "training",
+            "selection"
+          ],
+          "lemmas": [
+            "mouse",
+            "Bion",
+            "space",
+            "mission",
+            "training",
+            "selection"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space mission",
+        "start": 17,
+        "end": 30,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3630201/",
+    "pmc_id": "PMC3630201",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21 ",
+      "cleaned": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21",
+      "sentences": [
+        {
+          "original": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21",
+          "tokens": [
+            "Microgravity",
+            "induces",
+            "pelvic",
+            "bone",
+            "loss",
+            "osteoclastic",
+            "activity",
+            "osteocytic",
+            "osteolysis",
+            "osteoblastic",
+            "cell",
+            "cycle",
+            "inhibition",
+            "CDKN1a",
+            "p21"
+          ],
+          "lemmas": [
+            "Microgravity",
+            "induce",
+            "pelvic",
+            "bone",
+            "loss",
+            "osteoclastic",
+            "activity",
+            "osteocytic",
+            "osteolysis",
+            "osteoblastic",
+            "cell",
+            "cycle",
+            "inhibition",
+            "CDKN1a",
+            "p21"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 15
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Microgravity",
+        "start": 0,
+        "end": 12,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Microgravity"
+      },
+      {
+        "type": "PHENOTYPE",
+        "text": "bone loss",
+        "start": 28,
+        "end": 37,
+        "confidence": 0.88,
+        "source": "Pattern",
+        "canonical_name": "Bone Loss"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "STRESSOR": 1,
+      "PHENOTYPE": 1
+    }
+  },
+  {
+    "title": "Stem Cell Health and Tissue Regeneration in Microgravity",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988870/",
+    "pmc_id": "PMC11988870",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Stem Cell Health and Tissue Regeneration in Microgravity ",
+      "cleaned": "Stem Cell Health and Tissue Regeneration in Microgravity",
+      "sentences": [
+        {
+          "original": "Stem Cell Health and Tissue Regeneration in Microgravity",
+          "tokens": [
+            "Stem",
+            "Cell",
+            "Health",
+            "Tissue",
+            "Regeneration",
+            "Microgravity"
+          ],
+          "lemmas": [
+            "Stem",
+            "Cell",
+            "Health",
+            "Tissue",
+            "Regeneration",
+            "Microgravity"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Microgravity",
+        "start": 44,
+        "end": 56,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Microgravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7998608/",
+    "pmc_id": "PMC7998608",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells ",
+      "cleaned": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+      "sentences": [
+        {
+          "original": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+          "tokens": [
+            "Microgravity",
+            "Reduces",
+            "Differentiation",
+            "Regenerative",
+            "Potential",
+            "Embryonic",
+            "Stem",
+            "Cells"
+          ],
+          "lemmas": [
+            "Microgravity",
+            "reduce",
+            "Differentiation",
+            "Regenerative",
+            "Potential",
+            "Embryonic",
+            "Stem",
+            "Cells"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "VERB",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Microgravity",
+        "start": 0,
+        "end": 12,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Microgravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587110/",
+    "pmc_id": "PMC5587110",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station ",
+      "cleaned": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station",
+      "sentences": [
+        {
+          "original": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station",
+          "tokens": [
+            "Microgravity",
+            "validation",
+            "novel",
+            "system",
+            "RNA",
+            "isolation",
+            "multiplex",
+            "quantitative",
+            "real",
+            "time",
+            "PCR",
+            "analysis",
+            "gene",
+            "expression",
+            "International",
+            "Space",
+            "Station"
+          ],
+          "lemmas": [
+            "microgravity",
+            "validation",
+            "novel",
+            "system",
+            "RNA",
+            "isolation",
+            "multiplex",
+            "quantitative",
+            "real",
+            "time",
+            "pcr",
+            "analysis",
+            "gene",
+            "expression",
+            "International",
+            "Space",
+            "Station"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "PROPN",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 17
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Microgravity",
+        "start": 0,
+        "end": 12,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Microgravity"
+      },
+      {
+        "type": "STRESSOR",
+        "text": "isolation",
+        "start": 50,
+        "end": 59,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Isolation"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "STRESSOR": 2
+    }
+  },
+  {
+    "title": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8396460/",
+    "pmc_id": "PMC8396460",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart ",
+      "cleaned": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+      "sentences": [
+        {
+          "original": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+          "tokens": [
+            "Spaceflight",
+            "Modulates",
+            "Expression",
+            "Key",
+            "Oxidative",
+            "Stress",
+            "Cell",
+            "Cycle",
+            "Related",
+            "Genes",
+            "Heart"
+          ],
+          "lemmas": [
+            "Spaceflight",
+            "modulate",
+            "Expression",
+            "Key",
+            "Oxidative",
+            "Stress",
+            "Cell",
+            "cycle",
+            "relate",
+            "Genes",
+            "heart"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "VERB",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 0,
+        "end": 11,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5666799/",
+    "pmc_id": "PMC5666799",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System ",
+      "cleaned": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+      "sentences": [
+        {
+          "original": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+          "tokens": [
+            "Dose-",
+            "Ion",
+            "Dependent",
+            "Effects",
+            "Oxidative",
+            "Stress",
+            "Response",
+            "Space",
+            "Like",
+            "Radiation",
+            "Exposure",
+            "Skeletal",
+            "System"
+          ],
+          "lemmas": [
+            "Dose-",
+            "Ion",
+            "Dependent",
+            "Effects",
+            "Oxidative",
+            "Stress",
+            "Response",
+            "Space",
+            "Like",
+            "Radiation",
+            "Exposure",
+            "Skeletal",
+            "system"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 13
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460236/",
+    "pmc_id": "PMC5460236",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions. ",
+      "cleaned": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions.",
+      "sentences": [
+        {
+          "original": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions.",
+          "tokens": [
+            "bench",
+            "exploration",
+            "medicine",
+            "NASA",
+            "life",
+            "sciences",
+            "translational",
+            "research",
+            "human",
+            "exploration",
+            "habitation",
+            "missions"
+          ],
+          "lemmas": [
+            "bench",
+            "exploration",
+            "medicine",
+            "NASA",
+            "life",
+            "science",
+            "translational",
+            "research",
+            "human",
+            "exploration",
+            "habitation",
+            "mission"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6222041/",
+    "pmc_id": "PMC6222041",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality. ",
+      "cleaned": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality.",
+      "sentences": [
+        {
+          "original": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality.",
+          "tokens": [
+            "High",
+            "precision",
+            "method",
+            "cyclic",
+            "loading",
+            "small",
+            "animal",
+            "vertebrae",
+            "assess",
+            "bone",
+            "quality"
+          ],
+          "lemmas": [
+            "high",
+            "precision",
+            "method",
+            "cyclic",
+            "loading",
+            "small",
+            "animal",
+            "vertebrae",
+            "assess",
+            "bone",
+            "quality"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6813909/",
+    "pmc_id": "PMC6813909",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae. ",
+      "cleaned": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae.",
+      "sentences": [
+        {
+          "original": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae.",
+          "tokens": [
+            "Effects",
+            "ex",
+            "vivo",
+            "ionizing",
+            "radiation",
+            "collagen",
+            "structure",
+            "bone",
+            "mechanical",
+            "properties",
+            "mouse",
+            "vertebrae"
+          ],
+          "lemmas": [
+            "effect",
+            "ex",
+            "vivo",
+            "ionize",
+            "radiation",
+            "collagen",
+            "structure",
+            "bone",
+            "mechanical",
+            "property",
+            "mouse",
+            "vertebrae"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "ionizing radiation",
+        "start": 19,
+        "end": 37,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4095884/",
+    "pmc_id": "PMC4095884",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle ",
+      "cleaned": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+      "sentences": [
+        {
+          "original": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+          "tokens": [
+            "Absence",
+            "gamma",
+            "sarcoglycan",
+            "alters",
+            "response",
+            "p70S6",
+            "kinase",
+            "mechanical",
+            "perturbation",
+            "murine",
+            "skeletal",
+            "muscle"
+          ],
+          "lemmas": [
+            "absence",
+            "gamma",
+            "sarcoglycan",
+            "alter",
+            "response",
+            "p70s6",
+            "kinase",
+            "mechanical",
+            "perturbation",
+            "murine",
+            "skeletal",
+            "muscle"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PRON",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040128/",
+    "pmc_id": "PMC3040128",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth. ",
+      "cleaned": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth.",
+      "sentences": [
+        {
+          "original": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth.",
+          "tokens": [
+            "AtRabD2b",
+            "AtRabD2c",
+            "overlapping",
+            "functions",
+            "pollen",
+            "development",
+            "pollen",
+            "tube",
+            "growth"
+          ],
+          "lemmas": [
+            "atrabd2b",
+            "atrabd2c",
+            "overlap",
+            "function",
+            "pollen",
+            "development",
+            "pollen",
+            "tube",
+            "growth"
+          ],
+          "pos_tags": [
+            "NUM",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3177255/",
+    "pmc_id": "PMC3177255",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis. ",
+      "cleaned": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+      "sentences": [
+        {
+          "original": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+          "tokens": [
+            "TNO1",
+            "involved",
+            "salt",
+            "tolerance",
+            "vacuolar",
+            "trafficking",
+            "Arabidopsis"
+          ],
+          "lemmas": [
+            "TNO1",
+            "involve",
+            "salt",
+            "tolerance",
+            "vacuolar",
+            "trafficking",
+            "Arabidopsis"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "PROPN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11500582/",
+    "pmc_id": "PMC11500582",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana. ",
+      "cleaned": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana.",
+      "sentences": [
+        {
+          "original": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana.",
+          "tokens": [
+            "Functional",
+            "redundancy",
+            "trans",
+            "Golgi",
+            "network",
+            "SNARE",
+            "family",
+            "members",
+            "Arabidopsis",
+            "thaliana"
+          ],
+          "lemmas": [
+            "functional",
+            "redundancy",
+            "trans",
+            "golgi",
+            "network",
+            "snare",
+            "family",
+            "member",
+            "Arabidopsis",
+            "thaliana"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Root growth movements: Waving and skewing.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/",
+    "pmc_id": "PMC5387210",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Root growth movements: Waving and skewing. ",
+      "cleaned": "Root growth movements: Waving and skewing.",
+      "sentences": [
+        {
+          "original": "Root growth movements: Waving and skewing.",
+          "tokens": [
+            "Root",
+            "growth",
+            "movements",
+            "Waving",
+            "skewing"
+          ],
+          "lemmas": [
+            "root",
+            "growth",
+            "movement",
+            "wave",
+            "skew"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "VERB"
+          ],
+          "token_count": 5
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642138/",
+    "pmc_id": "PMC4642138",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1 ",
+      "cleaned": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+      "sentences": [
+        {
+          "original": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+          "tokens": [
+            "Gravitropism",
+            "lateral",
+            "root",
+            "emergence",
+            "dependent",
+            "trans",
+            "Golgi",
+            "network",
+            "protein",
+            "TNO1"
+          ],
+          "lemmas": [
+            "gravitropism",
+            "lateral",
+            "root",
+            "emergence",
+            "dependent",
+            "trans",
+            "Golgi",
+            "network",
+            "protein",
+            "TNO1"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "PROPN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/",
+    "pmc_id": "PMC5387210",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana. ",
+      "cleaned": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana.",
+      "sentences": [
+        {
+          "original": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana.",
+          "tokens": [
+            "TNO1",
+            "TGN",
+            "localized",
+            "SNARE",
+            "interacting",
+            "protein",
+            "modulates",
+            "root",
+            "skewing",
+            "Arabidopsis",
+            "thaliana"
+          ],
+          "lemmas": [
+            "TNO1",
+            "TGN",
+            "localize",
+            "snare",
+            "interact",
+            "protein",
+            "modulate",
+            "root",
+            "skew",
+            "Arabidopsis",
+            "thaliana"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2915878/",
+    "pmc_id": "PMC2915878",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus. ",
+      "cleaned": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus.",
+      "sentences": [
+        {
+          "original": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus.",
+          "tokens": [
+            "Drosophila",
+            "SUN",
+            "protein",
+            "Spag4",
+            "cooperates",
+            "coiled",
+            "coil",
+            "protein",
+            "Yuri",
+            "Gagarin",
+            "maintain",
+            "association",
+            "basal",
+            "body",
+            "spermatid",
+            "nucleus"
+          ],
+          "lemmas": [
+            "Drosophila",
+            "SUN",
+            "protein",
+            "Spag4",
+            "cooperate",
+            "coil",
+            "coil",
+            "protein",
+            "Yuri",
+            "Gagarin",
+            "maintain",
+            "association",
+            "basal",
+            "body",
+            "spermatid",
+            "nucleus"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 16
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3901686/",
+    "pmc_id": "PMC3901686",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila ",
+      "cleaned": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+      "sentences": [
+        {
+          "original": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+          "tokens": [
+            "Toll",
+            "mediated",
+            "infection",
+            "response",
+            "altered",
+            "gravity",
+            "spaceflight",
+            "Drosophila"
+          ],
+          "lemmas": [
+            "toll",
+            "mediate",
+            "infection",
+            "response",
+            "alter",
+            "gravity",
+            "spaceflight",
+            "Drosophila"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "PROPN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 59,
+        "end": 70,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6985101/",
+    "pmc_id": "PMC6985101",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver ",
+      "cleaned": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+      "sentences": [
+        {
+          "original": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+          "tokens": [
+            "Multi",
+            "omics",
+            "analysis",
+            "multiple",
+            "missions",
+            "space",
+            "reveal",
+            "theme",
+            "lipid",
+            "dysregulation",
+            "mouse",
+            "liver"
+          ],
+          "lemmas": [
+            "multi",
+            "omics",
+            "analysis",
+            "multiple",
+            "mission",
+            "space",
+            "reveal",
+            "theme",
+            "lipid",
+            "dysregulation",
+            "mouse",
+            "liver"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387434/",
+    "pmc_id": "PMC6387434",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species. ",
+      "cleaned": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species.",
+      "sentences": [
+        {
+          "original": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species.",
+          "tokens": [
+            "GeneLab",
+            "database",
+            "analyses",
+            "suggest",
+            "long",
+            "term",
+            "impact",
+            "space",
+            "radiation",
+            "cardiovascular",
+            "system",
+            "activation",
+            "FYN",
+            "reactive",
+            "oxygen",
+            "species"
+          ],
+          "lemmas": [
+            "GeneLab",
+            "database",
+            "analysis",
+            "suggest",
+            "long",
+            "term",
+            "impact",
+            "space",
+            "radiation",
+            "cardiovascular",
+            "system",
+            "activation",
+            "FYN",
+            "reactive",
+            "oxygen",
+            "specie"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 16
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space radiation",
+        "start": 54,
+        "end": 69,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "FAIRness and usability for open-access omics data systems.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371294/",
+    "pmc_id": "PMC6371294",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "FAIRness and usability for open-access omics data systems. ",
+      "cleaned": "FAIRness and usability for open-access omics data systems.",
+      "sentences": [
+        {
+          "original": "FAIRness and usability for open-access omics data systems.",
+          "tokens": [
+            "FAIRness",
+            "usability",
+            "open",
+            "access",
+            "omics",
+            "data",
+            "systems"
+          ],
+          "lemmas": [
+            "fairness",
+            "usability",
+            "open",
+            "access",
+            "omics",
+            "datum",
+            "system"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "NASA GeneLab platform utilized for biological response to space radiation in animal models",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7072278/",
+    "pmc_id": "PMC7072278",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "NASA GeneLab platform utilized for biological response to space radiation in animal models ",
+      "cleaned": "NASA GeneLab platform utilized for biological response to space radiation in animal models",
+      "sentences": [
+        {
+          "original": "NASA GeneLab platform utilized for biological response to space radiation in animal models",
+          "tokens": [
+            "NASA",
+            "GeneLab",
+            "platform",
+            "utilized",
+            "biological",
+            "response",
+            "space",
+            "radiation",
+            "animal",
+            "models"
+          ],
+          "lemmas": [
+            "NASA",
+            "GeneLab",
+            "platform",
+            "utilize",
+            "biological",
+            "response",
+            "space",
+            "radiation",
+            "animal",
+            "model"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space radiation",
+        "start": 58,
+        "end": 73,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441986/",
+    "pmc_id": "PMC8441986",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Circulating miRNA spaceflight signature reveals targets for countermeasure development ",
+      "cleaned": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+      "sentences": [
+        {
+          "original": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+          "tokens": [
+            "Circulating",
+            "miRNA",
+            "spaceflight",
+            "signature",
+            "reveals",
+            "targets",
+            "countermeasure",
+            "development"
+          ],
+          "lemmas": [
+            "circulate",
+            "mirna",
+            "spaceflight",
+            "signature",
+            "reveal",
+            "target",
+            "countermeasure",
+            "development"
+          ],
+          "pos_tags": [
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 18,
+        "end": 29,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9400218/",
+    "pmc_id": "PMC9400218",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome ",
+      "cleaned": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+      "sentences": [
+        {
+          "original": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+          "tokens": [
+            "Machine",
+            "learning",
+            "algorithm",
+            "characterize",
+            "antimicrobial",
+            "resistance",
+            "associated",
+            "International",
+            "Space",
+            "Station",
+            "surface",
+            "microbiome"
+          ],
+          "lemmas": [
+            "machine",
+            "learn",
+            "algorithm",
+            "characterize",
+            "antimicrobial",
+            "resistance",
+            "associate",
+            "International",
+            "Space",
+            "Station",
+            "surface",
+            "microbiome"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9267413/",
+    "pmc_id": "PMC9267413",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review ",
+      "cleaned": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review",
+      "sentences": [
+        {
+          "original": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts?",
+          "tokens": [
+            "Extraterrestrial",
+            "Gynecology",
+            "Spaceflight",
+            "Increase",
+            "Risk",
+            "Developing",
+            "Cancer",
+            "Female",
+            "Astronauts"
+          ],
+          "lemmas": [
+            "extraterrestrial",
+            "gynecology",
+            "Spaceflight",
+            "increase",
+            "risk",
+            "develop",
+            "Cancer",
+            "Female",
+            "astronaut"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 9
+        },
+        {
+          "original": "An Updated Review",
+          "tokens": [
+            "Updated",
+            "Review"
+          ],
+          "lemmas": [
+            "Updated",
+            "Review"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 2
+        }
+      ],
+      "sentence_count": 2
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 35,
+        "end": 46,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9576569/",
+    "pmc_id": "PMC9576569",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice. ",
+      "cleaned": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+      "sentences": [
+        {
+          "original": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+          "tokens": [
+            "Muscle",
+            "atrophy",
+            "phenotype",
+            "gene",
+            "expression",
+            "spaceflight",
+            "linked",
+            "metabolic",
+            "crosstalk",
+            "liver",
+            "muscle",
+            "mice"
+          ],
+          "lemmas": [
+            "muscle",
+            "atrophy",
+            "phenotype",
+            "gene",
+            "expression",
+            "spaceflight",
+            "link",
+            "metabolic",
+            "crosstalk",
+            "liver",
+            "muscle",
+            "mouse"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "PHENOTYPE",
+        "text": "Muscle atrophy",
+        "start": 0,
+        "end": 14,
+        "confidence": 0.88,
+        "source": "Pattern",
+        "canonical_name": "Muscle Atrophy"
+      },
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 48,
+        "end": 59,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "PHENOTYPE": 1,
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10789781/",
+    "pmc_id": "PMC10789781",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation ",
+      "cleaned": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+      "sentences": [
+        {
+          "original": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+          "tokens": [
+            "Chromosomal",
+            "positioning",
+            "epigenetic",
+            "architecture",
+            "influence",
+            "DNA",
+            "methylation",
+            "patterns",
+            "triggered",
+            "galactic",
+            "cosmic",
+            "radiation"
+          ],
+          "lemmas": [
+            "chromosomal",
+            "positioning",
+            "epigenetic",
+            "architecture",
+            "influence",
+            "DNA",
+            "methylation",
+            "pattern",
+            "trigger",
+            "galactic",
+            "cosmic",
+            "radiation"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "cosmic radiation",
+        "start": 109,
+        "end": 125,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10772081/",
+    "pmc_id": "PMC10772081",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection ",
+      "cleaned": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection",
+      "sentences": [
+        {
+          "original": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection",
+          "tokens": [
+            "comprehensive",
+            "SARS",
+            "CoV-2",
+            "COVID-19",
+            "review",
+            "Host",
+            "extracellular",
+            "systemic",
+            "effects",
+            "SARS",
+            "CoV-2",
+            "infection"
+          ],
+          "lemmas": [
+            "comprehensive",
+            "SARS",
+            "CoV-2",
+            "COVID-19",
+            "review",
+            "host",
+            "extracellular",
+            "systemic",
+            "effect",
+            "SARS",
+            "CoV-2",
+            "infection"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Aging and putative frailty biomarkers are altered by spaceflight",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166946/",
+    "pmc_id": "PMC11166946",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Aging and putative frailty biomarkers are altered by spaceflight ",
+      "cleaned": "Aging and putative frailty biomarkers are altered by spaceflight",
+      "sentences": [
+        {
+          "original": "Aging and putative frailty biomarkers are altered by spaceflight",
+          "tokens": [
+            "Aging",
+            "putative",
+            "frailty",
+            "biomarkers",
+            "altered",
+            "spaceflight"
+          ],
+          "lemmas": [
+            "age",
+            "putative",
+            "frailty",
+            "biomarker",
+            "alter",
+            "spaceflight"
+          ],
+          "pos_tags": [
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 53,
+        "end": 64,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166944/",
+    "pmc_id": "PMC11166944",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs ",
+      "cleaned": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs",
+      "sentences": [
+        {
+          "original": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs",
+          "tokens": [
+            "Space",
+            "radiation",
+            "damage",
+            "rescued",
+            "inhibition",
+            "key",
+            "spaceflight",
+            "associated",
+            "miRNAs"
+          ],
+          "lemmas": [
+            "space",
+            "radiation",
+            "damage",
+            "rescue",
+            "inhibition",
+            "key",
+            "spaceflight",
+            "associate",
+            "miRNAs"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "PROPN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Space radiation",
+        "start": 0,
+        "end": 15,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      },
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 52,
+        "end": 63,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "STRESSOR": 2
+    }
+  },
+  {
+    "title": "Ethical considerations for the age of non-governmental space exploration",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166968/",
+    "pmc_id": "PMC11166968",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Ethical considerations for the age of non-governmental space exploration ",
+      "cleaned": "Ethical considerations for the age of non-governmental space exploration",
+      "sentences": [
+        {
+          "original": "Ethical considerations for the age of non-governmental space exploration",
+          "tokens": [
+            "Ethical",
+            "considerations",
+            "age",
+            "non",
+            "governmental",
+            "space",
+            "exploration"
+          ],
+          "lemmas": [
+            "ethical",
+            "consideration",
+            "age",
+            "non",
+            "governmental",
+            "space",
+            "exploration"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Innate immune responses of Drosophila melanogaster are altered by spaceflight.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7000411/",
+    "pmc_id": "PMC7000411",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Innate immune responses of Drosophila melanogaster are altered by spaceflight. ",
+      "cleaned": "Innate immune responses of Drosophila melanogaster are altered by spaceflight.",
+      "sentences": [
+        {
+          "original": "Innate immune responses of Drosophila melanogaster are altered by spaceflight.",
+          "tokens": [
+            "Innate",
+            "immune",
+            "responses",
+            "Drosophila",
+            "melanogaster",
+            "altered",
+            "spaceflight"
+          ],
+          "lemmas": [
+            "innate",
+            "immune",
+            "response",
+            "Drosophila",
+            "melanogaster",
+            "alter",
+            "spaceflight"
+          ],
+          "pos_tags": [
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 66,
+        "end": 77,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      },
+      {
+        "type": "LABEL_1",
+        "text": ".",
+        "start": 77,
+        "end": 78,
+        "confidence": 0.751075804233551,
+        "source": "SciBERT"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "STRESSOR": 1,
+      "LABEL_1": 1
+    }
+  },
+  {
+    "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7787258/",
+    "pmc_id": "PMC7787258",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila ",
+      "cleaned": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila",
+      "sentences": [
+        {
+          "original": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila",
+          "tokens": [
+            "Prolonged",
+            "Exposure",
+            "Microgravity",
+            "Reduces",
+            "Cardiac",
+            "Contractility",
+            "Initiates",
+            "Remodeling",
+            "Drosophila"
+          ],
+          "lemmas": [
+            "prolonged",
+            "Exposure",
+            "Microgravity",
+            "Reduces",
+            "Cardiac",
+            "Contractility",
+            "Initiates",
+            "Remodeling",
+            "Drosophila"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Microgravity",
+        "start": 22,
+        "end": 34,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Microgravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8716943/",
+    "pmc_id": "PMC8716943",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton. ",
+      "cleaned": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton.",
+      "sentences": [
+        {
+          "original": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton.",
+          "tokens": [
+            "Regulation",
+            "plant",
+            "gravity",
+            "sensing",
+            "signaling",
+            "actin",
+            "cytoskeleton"
+          ],
+          "lemmas": [
+            "regulation",
+            "plant",
+            "gravity",
+            "sense",
+            "signal",
+            "actin",
+            "cytoskeleton"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "VERB",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "LABEL_1",
+        "text": ".",
+        "start": 75,
+        "end": 76,
+        "confidence": 0.79905766248703,
+        "source": "SciBERT"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "LABEL_1": 1
+    }
+  },
+  {
+    "title": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4826010/",
+    "pmc_id": "PMC4826010",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis ",
+      "cleaned": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis",
+      "sentences": [
+        {
+          "original": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis",
+          "tokens": [
+            "HLB1",
+            "Tetratricopeptide",
+            "Repeat",
+            "Domain",
+            "Containing",
+            "Protein",
+            "Operates",
+            "Intersection",
+            "Exocytic",
+            "Endocytic",
+            "Pathways",
+            "TGN",
+            "EE",
+            "Arabidopsis"
+          ],
+          "lemmas": [
+            "HLB1",
+            "Tetratricopeptide",
+            "repeat",
+            "Domain",
+            "contain",
+            "protein",
+            "operate",
+            "Intersection",
+            "Exocytic",
+            "endocytic",
+            "pathway",
+            "TGN",
+            "EE",
+            "arabidopsis"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "PROPN",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 14
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "ERULUS is a plasma membrane-localized receptor-like kinase that specifies root hair growth by maintaining tip-focused cytoplasmic calcium oscillations.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048781/",
+    "pmc_id": "PMC6048781",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "ERULUS is a plasma membrane-localized receptor-like kinase that specifies root hair growth by maintaining tip-focused cytoplasmic calcium oscillations. ",
+      "cleaned": "ERULUS is a plasma membrane-localized receptor-like kinase that specifies root hair growth by maintaining tip-focused cytoplasmic calcium oscillations.",
+      "sentences": [
+        {
+          "original": "ERULUS is a plasma membrane-localized receptor-like kinase that specifies root hair growth by maintaining tip-focused cytoplasmic calcium oscillations.",
+          "tokens": [
+            "ERULUS",
+            "plasma",
+            "membrane",
+            "localized",
+            "receptor",
+            "like",
+            "kinase",
+            "specifies",
+            "root",
+            "hair",
+            "growth",
+            "maintaining",
+            "tip",
+            "focused",
+            "cytoplasmic",
+            "calcium",
+            "oscillations"
+          ],
+          "lemmas": [
+            "ERULUS",
+            "plasma",
+            "membrane",
+            "localize",
+            "receptor",
+            "like",
+            "kinase",
+            "specify",
+            "root",
+            "hair",
+            "growth",
+            "maintain",
+            "tip",
+            "focus",
+            "cytoplasmic",
+            "calcium",
+            "oscillation"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 17
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Brassinosteroids inhibit autotropic root straightening by modifying filamentous-actin organization and dynamics.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7010715/",
+    "pmc_id": "PMC7010715",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Brassinosteroids inhibit autotropic root straightening by modifying filamentous-actin organization and dynamics. ",
+      "cleaned": "Brassinosteroids inhibit autotropic root straightening by modifying filamentous-actin organization and dynamics.",
+      "sentences": [
+        {
+          "original": "Brassinosteroids inhibit autotropic root straightening by modifying filamentous-actin organization and dynamics.",
+          "tokens": [
+            "Brassinosteroids",
+            "inhibit",
+            "autotropic",
+            "root",
+            "straightening",
+            "modifying",
+            "filamentous",
+            "actin",
+            "organization",
+            "dynamics"
+          ],
+          "lemmas": [
+            "brassinosteroid",
+            "inhibit",
+            "autotropic",
+            "root",
+            "straighten",
+            "modify",
+            "filamentous",
+            "actin",
+            "organization",
+            "dynamic"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "LABEL_1",
+        "text": ".",
+        "start": 111,
+        "end": 112,
+        "confidence": 0.7539226412773132,
+        "source": "SciBERT"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "LABEL_1": 1
+    }
+  },
+  {
+    "title": "Cell type-specific imaging of calcium signaling in Arabidopsis thaliana seedling roots using GCaMP3.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7503278/",
+    "pmc_id": "PMC7503278",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Cell type-specific imaging of calcium signaling in Arabidopsis thaliana seedling roots using GCaMP3. ",
+      "cleaned": "Cell type-specific imaging of calcium signaling in Arabidopsis thaliana seedling roots using GCaMP3.",
+      "sentences": [
+        {
+          "original": "Cell type-specific imaging of calcium signaling in Arabidopsis thaliana seedling roots using GCaMP3.",
+          "tokens": [
+            "Cell",
+            "type",
+            "specific",
+            "imaging",
+            "calcium",
+            "signaling",
+            "Arabidopsis",
+            "thaliana",
+            "seedling",
+            "roots",
+            "GCaMP3"
+          ],
+          "lemmas": [
+            "cell",
+            "type",
+            "specific",
+            "imaging",
+            "calcium",
+            "signal",
+            "Arabidopsis",
+            "thaliana",
+            "seedle",
+            "root",
+            "GCaMP3"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PROPN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8364238/",
+    "pmc_id": "PMC8364238",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development. ",
+      "cleaned": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development.",
+      "sentences": [
+        {
+          "original": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development.",
+          "tokens": [
+            "Spatial",
+            "temporal",
+            "localization",
+            "SPIRRIG",
+            "WAVE",
+            "SCAR",
+            "reveal",
+            "roles",
+            "proteins",
+            "actin",
+            "mediated",
+            "root",
+            "hair",
+            "development"
+          ],
+          "lemmas": [
+            "spatial",
+            "temporal",
+            "localization",
+            "SPIRRIG",
+            "wave",
+            "SCAR",
+            "reveal",
+            "role",
+            "protein",
+            "actin",
+            "mediate",
+            "root",
+            "hair",
+            "development"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 14
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Microgravity Stress: Bone and Connective Tissue",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11579474/",
+    "pmc_id": "PMC11579474",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Microgravity Stress: Bone and Connective Tissue ",
+      "cleaned": "Microgravity Stress: Bone and Connective Tissue",
+      "sentences": [
+        {
+          "original": "Microgravity Stress:",
+          "tokens": [
+            "Microgravity",
+            "Stress"
+          ],
+          "lemmas": [
+            "Microgravity",
+            "Stress"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 2
+        },
+        {
+          "original": "Bone and Connective Tissue",
+          "tokens": [
+            "Bone",
+            "Connective",
+            "Tissue"
+          ],
+          "lemmas": [
+            "Bone",
+            "Connective",
+            "Tissue"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 3
+        }
+      ],
+      "sentence_count": 2
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Microgravity",
+        "start": 0,
+        "end": 12,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Microgravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2998437/",
+    "pmc_id": "PMC2998437",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins ",
+      "cleaned": "S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins",
+      "sentences": [
+        {
+          "original": "S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins",
+          "tokens": [
+            "S.",
+            "aureus",
+            "MscL",
+            "pentamer",
+            "vivo",
+            "variable",
+            "stoichiometries",
+            "vitro",
+            "implications",
+            "detergent",
+            "solubilized",
+            "membrane",
+            "proteins"
+          ],
+          "lemmas": [
+            "S.",
+            "aureus",
+            "MscL",
+            "pentamer",
+            "vivo",
+            "variable",
+            "stoichiometry",
+            "vitro",
+            "implication",
+            "detergent",
+            "solubilize",
+            "membrane",
+            "protein"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "X",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 13
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "LABEL_0",
+        "text": "s",
+        "start": 0,
+        "end": 1,
+        "confidence": 0.7698891162872314,
+        "source": "SciBERT"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "LABEL_0": 1
+    }
+  },
+  {
+    "title": "Manipulating the permeation of charged compounds through the MscL nanovalve.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3005423/",
+    "pmc_id": "PMC3005423",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Manipulating the permeation of charged compounds through the MscL nanovalve. ",
+      "cleaned": "Manipulating the permeation of charged compounds through the MscL nanovalve.",
+      "sentences": [
+        {
+          "original": "Manipulating the permeation of charged compounds through the MscL nanovalve.",
+          "tokens": [
+            "Manipulating",
+            "permeation",
+            "charged",
+            "compounds",
+            "MscL",
+            "nanovalve"
+          ],
+          "lemmas": [
+            "manipulate",
+            "permeation",
+            "charge",
+            "compound",
+            "MscL",
+            "nanovalve"
+          ],
+          "pos_tags": [
+            "VERB",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3190158/",
+    "pmc_id": "PMC3190158",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo. ",
+      "cleaned": "The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo.",
+      "sentences": [
+        {
+          "original": "The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo.",
+          "tokens": [
+            "oligomeric",
+            "state",
+            "truncated",
+            "mechanosensitive",
+            "channel",
+            "large",
+            "conductance",
+            "shows",
+            "variance",
+            "vivo"
+          ],
+          "lemmas": [
+            "oligomeric",
+            "state",
+            "truncated",
+            "mechanosensitive",
+            "channel",
+            "large",
+            "conductance",
+            "show",
+            "variance",
+            "vivo"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Three routes to modulate the pore size of the MscL channel/nanovalve",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3289768/",
+    "pmc_id": "PMC3289768",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Three routes to modulate the pore size of the MscL channel/nanovalve ",
+      "cleaned": "Three routes to modulate the pore size of the MscL channel/nanovalve",
+      "sentences": [
+        {
+          "original": "Three routes to modulate the pore size of the MscL channel/nanovalve",
+          "tokens": [
+            "routes",
+            "modulate",
+            "pore",
+            "size",
+            "MscL",
+            "channel",
+            "nanovalve"
+          ],
+          "lemmas": [
+            "route",
+            "modulate",
+            "pore",
+            "size",
+            "MscL",
+            "channel",
+            "nanovalve"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508904/",
+    "pmc_id": "PMC3508904",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface ",
+      "cleaned": "The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface",
+      "sentences": [
+        {
+          "original": "The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface",
+          "tokens": [
+            "dynamics",
+            "protein",
+            "protein",
+            "interactions",
+            "domains",
+            "MscL",
+            "cytoplasmic",
+            "lipid",
+            "interface"
+          ],
+          "lemmas": [
+            "dynamic",
+            "protein",
+            "protein",
+            "interaction",
+            "domain",
+            "MscL",
+            "cytoplasmic",
+            "lipid",
+            "interface"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3430326/",
+    "pmc_id": "PMC3430326",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves ",
+      "cleaned": "The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves",
+      "sentences": [
+        {
+          "original": "The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves",
+          "tokens": [
+            "MscS",
+            "MscL",
+            "families",
+            "mechanosensitive",
+            "channels",
+            "act",
+            "microbial",
+            "emergency",
+            "release",
+            "valves"
+          ],
+          "lemmas": [
+            "MscS",
+            "MscL",
+            "family",
+            "mechanosensitive",
+            "channel",
+            "act",
+            "microbial",
+            "emergency",
+            "release",
+            "valve"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3593973/",
+    "pmc_id": "PMC3593973",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity ",
+      "cleaned": "Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity",
+      "sentences": [
+        {
+          "original": "Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity",
+          "tokens": [
+            "Chimeras",
+            "reveal",
+            "single",
+            "lipid",
+            "interface",
+            "residue",
+            "controls",
+            "MscL",
+            "channel",
+            "kinetics",
+            "mechanosensitivity"
+          ],
+          "lemmas": [
+            "Chimeras",
+            "reveal",
+            "single",
+            "lipid",
+            "interface",
+            "residue",
+            "control",
+            "MscL",
+            "channel",
+            "kinetic",
+            "mechanosensitivity"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5018776/",
+    "pmc_id": "PMC5018776",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade ",
+      "cleaned": "Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade",
+      "sentences": [
+        {
+          "original": "Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade",
+          "tokens": [
+            "Evidence",
+            "extensive",
+            "horizontal",
+            "gene",
+            "transfer",
+            "draft",
+            "genome",
+            "tardigrade"
+          ],
+          "lemmas": [
+            "evidence",
+            "extensive",
+            "horizontal",
+            "gene",
+            "transfer",
+            "draft",
+            "genome",
+            "tardigrade"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4896697/",
+    "pmc_id": "PMC4896697",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies ",
+      "cleaned": "Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies",
+      "sentences": [
+        {
+          "original": "Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies",
+          "tokens": [
+            "Reply",
+            "Bemm",
+            "Arakawa",
+            "Identifying",
+            "foreign",
+            "genes",
+            "independent",
+            "Hypsibius",
+            "dujardini",
+            "genome",
+            "assemblies"
+          ],
+          "lemmas": [
+            "reply",
+            "Bemm",
+            "Arakawa",
+            "identify",
+            "foreign",
+            "gene",
+            "independent",
+            "Hypsibius",
+            "dujardini",
+            "genome",
+            "assembly"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "PROPN",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Tardigrades Use Intrinsically Disordered Proteins to Survive Desiccation.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11127935/",
+    "pmc_id": "PMC11127935",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Tardigrades Use Intrinsically Disordered Proteins to Survive Desiccation. ",
+      "cleaned": "Tardigrades Use Intrinsically Disordered Proteins to Survive Desiccation.",
+      "sentences": [
+        {
+          "original": "Tardigrades Use Intrinsically Disordered Proteins to Survive Desiccation.",
+          "tokens": [
+            "Tardigrades",
+            "Use",
+            "Intrinsically",
+            "Disordered",
+            "Proteins",
+            "Survive",
+            "Desiccation"
+          ],
+          "lemmas": [
+            "tardigrade",
+            "Use",
+            "Intrinsically",
+            "Disordered",
+            "Proteins",
+            "survive",
+            "Desiccation"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "VERB",
+            "PROPN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Desiccation of Hypsibius exemplaris",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11831363/",
+    "pmc_id": "PMC11831363",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Desiccation of Hypsibius exemplaris ",
+      "cleaned": "Desiccation of Hypsibius exemplaris",
+      "sentences": [
+        {
+          "original": "Desiccation of Hypsibius exemplaris",
+          "tokens": [
+            "Desiccation",
+            "Hypsibius",
+            "exemplaris"
+          ],
+          "lemmas": [
+            "desiccation",
+            "Hypsibius",
+            "exemplaris"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 3
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "The biology of tardigrade disordered proteins in extreme stress tolerance.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11930778/",
+    "pmc_id": "PMC11930778",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "The biology of tardigrade disordered proteins in extreme stress tolerance. ",
+      "cleaned": "The biology of tardigrade disordered proteins in extreme stress tolerance.",
+      "sentences": [
+        {
+          "original": "The biology of tardigrade disordered proteins in extreme stress tolerance.",
+          "tokens": [
+            "biology",
+            "tardigrade",
+            "disordered",
+            "proteins",
+            "extreme",
+            "stress",
+            "tolerance"
+          ],
+          "lemmas": [
+            "biology",
+            "tardigrade",
+            "disorder",
+            "protein",
+            "extreme",
+            "stress",
+            "tolerance"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "LABEL_1",
+        "text": ".",
+        "start": 73,
+        "end": 74,
+        "confidence": 0.7753946781158447,
+        "source": "SciBERT"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "LABEL_1": 1
+    }
+  },
+  {
+    "title": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8816950/",
+    "pmc_id": "PMC8816950",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis ",
+      "cleaned": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis",
+      "sentences": [
+        {
+          "original": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis",
+          "tokens": [
+            "Production",
+            "reactive",
+            "oxygen",
+            "species",
+            "involvement",
+            "bioprotectants",
+            "anhydrobiosis",
+            "tardigrade",
+            "Paramacrobiotus",
+            "spatialis"
+          ],
+          "lemmas": [
+            "production",
+            "reactive",
+            "oxygen",
+            "specie",
+            "involvement",
+            "bioprotectant",
+            "anhydrobiosis",
+            "tardigrade",
+            "Paramacrobiotus",
+            "spatiali"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Partial weight suspension: A novel murine model for investigating adaptation to reduced musculoskeletal loading.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3774184/",
+    "pmc_id": "PMC3774184",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Partial weight suspension: A novel murine model for investigating adaptation to reduced musculoskeletal loading. ",
+      "cleaned": "Partial weight suspension: A novel murine model for investigating adaptation to reduced musculoskeletal loading.",
+      "sentences": [
+        {
+          "original": "Partial weight suspension: A novel murine model for investigating adaptation to reduced musculoskeletal loading.",
+          "tokens": [
+            "Partial",
+            "weight",
+            "suspension",
+            "novel",
+            "murine",
+            "model",
+            "investigating",
+            "adaptation",
+            "reduced",
+            "musculoskeletal",
+            "loading"
+          ],
+          "lemmas": [
+            "partial",
+            "weight",
+            "suspension",
+            "novel",
+            "murine",
+            "model",
+            "investigate",
+            "adaptation",
+            "reduce",
+            "musculoskeletal",
+            "loading"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4118556/",
+    "pmc_id": "PMC4118556",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass ",
+      "cleaned": "Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass",
+      "sentences": [
+        {
+          "original": "Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass",
+          "tokens": [
+            "Partial",
+            "reductions",
+            "mechanical",
+            "loading",
+            "yield",
+            "proportional",
+            "changes",
+            "bone",
+            "density",
+            "bone",
+            "architecture",
+            "muscle",
+            "mass"
+          ],
+          "lemmas": [
+            "partial",
+            "reduction",
+            "mechanical",
+            "loading",
+            "yield",
+            "proportional",
+            "change",
+            "bone",
+            "density",
+            "bone",
+            "architecture",
+            "muscle",
+            "mass"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN"
+          ],
+          "token_count": 13
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4653813/",
+    "pmc_id": "PMC4653813",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle ",
+      "cleaned": "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle",
+      "sentences": [
+        {
+          "original": "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle",
+          "tokens": [
+            "Spaceflight",
+            "hind",
+            "limb",
+            "unloading",
+            "induce",
+            "similar",
+            "changes",
+            "electrical",
+            "impedance",
+            "characteristics",
+            "mouse",
+            "gastrocnemius",
+            "muscle"
+          ],
+          "lemmas": [
+            "spaceflight",
+            "hind",
+            "limb",
+            "unloading",
+            "induce",
+            "similar",
+            "change",
+            "electrical",
+            "impedance",
+            "characteristic",
+            "mouse",
+            "gastrocnemius",
+            "muscle"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 13
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 0,
+        "end": 11,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6915713/",
+    "pmc_id": "PMC6915713",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver ",
+      "cleaned": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver",
+      "sentences": [
+        {
+          "original": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver",
+          "tokens": [
+            "Spaceflight",
+            "Activates",
+            "Lipotoxic",
+            "Pathways",
+            "Mouse",
+            "Liver"
+          ],
+          "lemmas": [
+            "Spaceflight",
+            "Activates",
+            "Lipotoxic",
+            "Pathways",
+            "Mouse",
+            "Liver"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 0,
+        "end": 11,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Treatment with a soluble bone morphogenetic protein type 1A receptor (BMPR1A) fusion protein increases bone mass and bone formation in mice subjected to hindlimb unloading.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6124165/",
+    "pmc_id": "PMC6124165",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Treatment with a soluble bone morphogenetic protein type 1A receptor (BMPR1A) fusion protein increases bone mass and bone formation in mice subjected to hindlimb unloading. ",
+      "cleaned": "Treatment with a soluble bone morphogenetic protein type 1A receptor (BMPR1A) fusion protein increases bone mass and bone formation in mice subjected to hindlimb unloading.",
+      "sentences": [
+        {
+          "original": "Treatment with a soluble bone morphogenetic protein type 1A receptor (BMPR1A) fusion protein increases bone mass and bone formation in mice subjected to hindlimb unloading.",
+          "tokens": [
+            "Treatment",
+            "soluble",
+            "bone",
+            "morphogenetic",
+            "protein",
+            "type",
+            "1A",
+            "receptor",
+            "BMPR1A",
+            "fusion",
+            "protein",
+            "increases",
+            "bone",
+            "mass",
+            "bone",
+            "formation",
+            "mice",
+            "subjected",
+            "hindlimb",
+            "unloading"
+          ],
+          "lemmas": [
+            "treatment",
+            "soluble",
+            "bone",
+            "morphogenetic",
+            "protein",
+            "type",
+            "1A",
+            "receptor",
+            "BMPR1A",
+            "fusion",
+            "protein",
+            "increase",
+            "bone",
+            "mass",
+            "bone",
+            "formation",
+            "mouse",
+            "subject",
+            "hindlimb",
+            "unload"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "VERB",
+            "VERB"
+          ],
+          "token_count": 20
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "hindlimb unloading",
+        "start": 153,
+        "end": 171,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Simulated Microgravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8509868/",
+    "pmc_id": "PMC8509868",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice ",
+      "cleaned": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice",
+      "sentences": [
+        {
+          "original": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice",
+          "tokens": [
+            "RNAseq",
+            "RNA",
+            "molecular",
+            "barcoding",
+            "reveal",
+            "differential",
+            "gene",
+            "expression",
+            "cortical",
+            "bone",
+            "following",
+            "hindlimb",
+            "unloading",
+            "female",
+            "mice"
+          ],
+          "lemmas": [
+            "RNAseq",
+            "RNA",
+            "molecular",
+            "barcoding",
+            "reveal",
+            "differential",
+            "gene",
+            "expression",
+            "cortical",
+            "bone",
+            "follow",
+            "hindlimb",
+            "unloading",
+            "female",
+            "mouse"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "ADJ",
+            "ADJ",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 15
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "hindlimb unloading",
+        "start": 98,
+        "end": 116,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Simulated Microgravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11063234/",
+    "pmc_id": "PMC11063234",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation ",
+      "cleaned": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation",
+      "sentences": [
+        {
+          "original": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation",
+          "tokens": [
+            "Proteomic",
+            "phosphoproteomic",
+            "characterization",
+            "cardiovascular",
+            "tissues",
+            "long",
+            "term",
+            "exposure",
+            "simulated",
+            "space",
+            "radiation"
+          ],
+          "lemmas": [
+            "proteomic",
+            "phosphoproteomic",
+            "characterization",
+            "cardiovascular",
+            "tissue",
+            "long",
+            "term",
+            "exposure",
+            "simulate",
+            "space",
+            "radiation"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space radiation",
+        "start": 112,
+        "end": 127,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Adaptive Changes in the Vestibular System of Land Snail to a 30-Day Spaceflight and Readaptation on Return to Earth",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5672023/",
+    "pmc_id": "PMC5672023",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Adaptive Changes in the Vestibular System of Land Snail to a 30-Day Spaceflight and Readaptation on Return to Earth ",
+      "cleaned": "Adaptive Changes in the Vestibular System of Land Snail to a 30-Day Spaceflight and Readaptation on Return to Earth",
+      "sentences": [
+        {
+          "original": "Adaptive Changes in the Vestibular System of Land Snail to a 30-Day Spaceflight and Readaptation on Return to Earth",
+          "tokens": [
+            "Adaptive",
+            "Changes",
+            "Vestibular",
+            "System",
+            "Land",
+            "Snail",
+            "30",
+            "Day",
+            "Spaceflight",
+            "Readaptation",
+            "Return",
+            "Earth"
+          ],
+          "lemmas": [
+            "Adaptive",
+            "Changes",
+            "Vestibular",
+            "System",
+            "Land",
+            "Snail",
+            "30",
+            "Day",
+            "Spaceflight",
+            "Readaptation",
+            "Return",
+            "earth"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NUM",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 68,
+        "end": 79,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Morphology of the Utricular Otolith Organ in the Toadfish, Opsanus tau",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5899691/",
+    "pmc_id": "PMC5899691",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Morphology of the Utricular Otolith Organ in the Toadfish, Opsanus tau ",
+      "cleaned": "Morphology of the Utricular Otolith Organ in the Toadfish, Opsanus tau",
+      "sentences": [
+        {
+          "original": "Morphology of the Utricular Otolith Organ in the Toadfish, Opsanus tau",
+          "tokens": [
+            "Morphology",
+            "Utricular",
+            "Otolith",
+            "Organ",
+            "Toadfish",
+            "Opsanus",
+            "tau"
+          ],
+          "lemmas": [
+            "morphology",
+            "Utricular",
+            "Otolith",
+            "Organ",
+            "Toadfish",
+            "Opsanus",
+            "tau"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Influence of Magnitude and Duration of Altered Gravity and Readaptation to 1g on the Structure and Function of the Utricle in Toadfish, Opsanus tau.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6204554/",
+    "pmc_id": "PMC6204554",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Influence of Magnitude and Duration of Altered Gravity and Readaptation to 1g on the Structure and Function of the Utricle in Toadfish, Opsanus tau. ",
+      "cleaned": "Influence of Magnitude and Duration of Altered Gravity and Readaptation to 1g on the Structure and Function of the Utricle in Toadfish, Opsanus tau.",
+      "sentences": [
+        {
+          "original": "Influence of Magnitude and Duration of Altered Gravity and Readaptation to 1g on the Structure and Function of the Utricle in Toadfish, Opsanus tau.",
+          "tokens": [
+            "Influence",
+            "Magnitude",
+            "Duration",
+            "Altered",
+            "Gravity",
+            "Readaptation",
+            "Structure",
+            "Function",
+            "Utricle",
+            "Toadfish",
+            "Opsanus",
+            "tau"
+          ],
+          "lemmas": [
+            "influence",
+            "Magnitude",
+            "Duration",
+            "Altered",
+            "Gravity",
+            "Readaptation",
+            "Structure",
+            "Function",
+            "Utricle",
+            "Toadfish",
+            "Opsanus",
+            "tau"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Altered Gravity",
+        "start": 39,
+        "end": 54,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Altered Gravity"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Organization of the ER-Golgi interface for membrane traffic control.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4064004/",
+    "pmc_id": "PMC4064004",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Organization of the ER-Golgi interface for membrane traffic control. ",
+      "cleaned": "Organization of the ER-Golgi interface for membrane traffic control.",
+      "sentences": [
+        {
+          "original": "Organization of the ER-Golgi interface for membrane traffic control.",
+          "tokens": [
+            "Organization",
+            "ER",
+            "Golgi",
+            "interface",
+            "membrane",
+            "traffic",
+            "control"
+          ],
+          "lemmas": [
+            "Organization",
+            "ER",
+            "Golgi",
+            "interface",
+            "membrane",
+            "traffic",
+            "control"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "IRE1: ER stress sensor and cell fate executor.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3818365/",
+    "pmc_id": "PMC3818365",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "IRE1: ER stress sensor and cell fate executor. ",
+      "cleaned": "IRE1: ER stress sensor and cell fate executor.",
+      "sentences": [
+        {
+          "original": "IRE1: ER stress sensor and cell fate executor.",
+          "tokens": [
+            "IRE1",
+            "ER",
+            "stress",
+            "sensor",
+            "cell",
+            "fate",
+            "executor"
+          ],
+          "lemmas": [
+            "IRE1",
+            "ER",
+            "stress",
+            "sensor",
+            "cell",
+            "fate",
+            "executor"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Inter-regulation of the unfolded protein response and auxin signaling.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3981873/",
+    "pmc_id": "PMC3981873",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Inter-regulation of the unfolded protein response and auxin signaling. ",
+      "cleaned": "Inter-regulation of the unfolded protein response and auxin signaling.",
+      "sentences": [
+        {
+          "original": "Inter-regulation of the unfolded protein response and auxin signaling.",
+          "tokens": [
+            "Inter",
+            "regulation",
+            "unfolded",
+            "protein",
+            "response",
+            "auxin",
+            "signaling"
+          ],
+          "lemmas": [
+            "inter",
+            "regulation",
+            "unfolded",
+            "protein",
+            "response",
+            "auxin",
+            "signal"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Endoplasmic reticulum-shape and function in stress translation",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150462/",
+    "pmc_id": "PMC4150462",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Endoplasmic reticulum-shape and function in stress translation ",
+      "cleaned": "Endoplasmic reticulum-shape and function in stress translation",
+      "sentences": [
+        {
+          "original": "Endoplasmic reticulum-shape and function in stress translation",
+          "tokens": [
+            "Endoplasmic",
+            "reticulum",
+            "shape",
+            "function",
+            "stress",
+            "translation"
+          ],
+          "lemmas": [
+            "endoplasmic",
+            "reticulum",
+            "shape",
+            "function",
+            "stress",
+            "translation"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Galactose-depleted xycoglucan is dysfunctional and leads to dwarfism in Arabidopsis",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4378170/",
+    "pmc_id": "PMC4378170",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Galactose-depleted xycoglucan is dysfunctional and leads to dwarfism in Arabidopsis ",
+      "cleaned": "Galactose-depleted xycoglucan is dysfunctional and leads to dwarfism in Arabidopsis",
+      "sentences": [
+        {
+          "original": "Galactose-depleted xycoglucan is dysfunctional and leads to dwarfism in Arabidopsis",
+          "tokens": [
+            "Galactose",
+            "depleted",
+            "xycoglucan",
+            "dysfunctional",
+            "leads",
+            "dwarfism",
+            "Arabidopsis"
+          ],
+          "lemmas": [
+            "galactose",
+            "deplete",
+            "xycoglucan",
+            "dysfunctional",
+            "lead",
+            "dwarfism",
+            "arabidopsis"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "ADJ",
+            "VERB",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Unfolded protein response in plants: one master, many questions.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4618186/",
+    "pmc_id": "PMC4618186",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Unfolded protein response in plants: one master, many questions. ",
+      "cleaned": "Unfolded protein response in plants: one master, many questions.",
+      "sentences": [
+        {
+          "original": "Unfolded protein response in plants: one master, many questions.",
+          "tokens": [
+            "Unfolded",
+            "protein",
+            "response",
+            "plants",
+            "master",
+            "questions"
+          ],
+          "lemmas": [
+            "unfold",
+            "protein",
+            "response",
+            "plant",
+            "master",
+            "question"
+          ],
+          "pos_tags": [
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Vesicles versus Tubes: Is Endoplasmic Reticulum-Golgi Transport in Plants Fundamentally Different from Other Eukaryotes?",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4453782/",
+    "pmc_id": "PMC4453782",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Vesicles versus Tubes: Is Endoplasmic Reticulum-Golgi Transport in Plants Fundamentally Different from Other Eukaryotes? ",
+      "cleaned": "Vesicles versus Tubes: Is Endoplasmic Reticulum-Golgi Transport in Plants Fundamentally Different from Other Eukaryotes?",
+      "sentences": [
+        {
+          "original": "Vesicles versus Tubes: Is Endoplasmic Reticulum-Golgi Transport in Plants Fundamentally Different from Other Eukaryotes?",
+          "tokens": [
+            "Vesicles",
+            "versus",
+            "Tubes",
+            "Endoplasmic",
+            "Reticulum",
+            "Golgi",
+            "Transport",
+            "Plants",
+            "Fundamentally",
+            "Different",
+            "Eukaryotes"
+          ],
+          "lemmas": [
+            "vesicle",
+            "versus",
+            "Tubes",
+            "Endoplasmic",
+            "Reticulum",
+            "Golgi",
+            "Transport",
+            "plant",
+            "fundamentally",
+            "different",
+            "Eukaryotes"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADP",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "ADV",
+            "ADJ",
+            "PROPN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Pectin methylesterification impacts the relationship between photosynthesis and plant growth.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4902601/",
+    "pmc_id": "PMC4902601",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Pectin methylesterification impacts the relationship between photosynthesis and plant growth. ",
+      "cleaned": "Pectin methylesterification impacts the relationship between photosynthesis and plant growth.",
+      "sentences": [
+        {
+          "original": "Pectin methylesterification impacts the relationship between photosynthesis and plant growth.",
+          "tokens": [
+            "Pectin",
+            "methylesterification",
+            "impacts",
+            "relationship",
+            "photosynthesis",
+            "plant",
+            "growth"
+          ],
+          "lemmas": [
+            "Pectin",
+            "methylesterification",
+            "impact",
+            "relationship",
+            "photosynthesis",
+            "plant",
+            "growth"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Reduced Chloroplast Coverage genes from Arabidopsis thaliana help to establish the size of the chloroplast compartment",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4776492/",
+    "pmc_id": "PMC4776492",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Reduced Chloroplast Coverage genes from Arabidopsis thaliana help to establish the size of the chloroplast compartment ",
+      "cleaned": "Reduced Chloroplast Coverage genes from Arabidopsis thaliana help to establish the size of the chloroplast compartment",
+      "sentences": [
+        {
+          "original": "Reduced Chloroplast Coverage genes from Arabidopsis thaliana help to establish the size of the chloroplast compartment",
+          "tokens": [
+            "Reduced",
+            "Chloroplast",
+            "Coverage",
+            "genes",
+            "Arabidopsis",
+            "thaliana",
+            "help",
+            "establish",
+            "size",
+            "chloroplast",
+            "compartment"
+          ],
+          "lemmas": [
+            "reduced",
+            "Chloroplast",
+            "Coverage",
+            "gene",
+            "Arabidopsis",
+            "thaliana",
+            "help",
+            "establish",
+            "size",
+            "chloroplast",
+            "compartment"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Maintaining the factory: The roles of the unfolded protein response in cellular homeostasis in plants.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5415411/",
+    "pmc_id": "PMC5415411",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Maintaining the factory: The roles of the unfolded protein response in cellular homeostasis in plants. ",
+      "cleaned": "Maintaining the factory: The roles of the unfolded protein response in cellular homeostasis in plants.",
+      "sentences": [
+        {
+          "original": "Maintaining the factory: The roles of the unfolded protein response in cellular homeostasis in plants.",
+          "tokens": [
+            "Maintaining",
+            "factory",
+            "roles",
+            "unfolded",
+            "protein",
+            "response",
+            "cellular",
+            "homeostasis",
+            "plants"
+          ],
+          "lemmas": [
+            "maintain",
+            "factory",
+            "role",
+            "unfolded",
+            "protein",
+            "response",
+            "cellular",
+            "homeostasis",
+            "plant"
+          ],
+          "pos_tags": [
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "NADPH oxidase activity is required for ER stress survival in plants.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6289879/",
+    "pmc_id": "PMC6289879",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "NADPH oxidase activity is required for ER stress survival in plants. ",
+      "cleaned": "NADPH oxidase activity is required for ER stress survival in plants.",
+      "sentences": [
+        {
+          "original": "NADPH oxidase activity is required for ER stress survival in plants.",
+          "tokens": [
+            "NADPH",
+            "oxidase",
+            "activity",
+            "required",
+            "ER",
+            "stress",
+            "survival",
+            "plants"
+          ],
+          "lemmas": [
+            "NADPH",
+            "oxidase",
+            "activity",
+            "require",
+            "ER",
+            "stress",
+            "survival",
+            "plant"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7987364/",
+    "pmc_id": "PMC7987364",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis ",
+      "cleaned": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis",
+      "sentences": [
+        {
+          "original": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis",
+          "tokens": [
+            "Relevance",
+            "Unfolded",
+            "Protein",
+            "Response",
+            "Spaceflight",
+            "Induced",
+            "Transcriptional",
+            "Reprogramming",
+            "Arabidopsis"
+          ],
+          "lemmas": [
+            "relevance",
+            "Unfolded",
+            "Protein",
+            "response",
+            "Spaceflight",
+            "induce",
+            "transcriptional",
+            "reprogramme",
+            "arabidopsis"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "PROPN",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "NOUN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 46,
+        "end": 57,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099722/",
+    "pmc_id": "PMC8099722",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement ",
+      "cleaned": "Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement",
+      "sentences": [
+        {
+          "original": "Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement",
+          "tokens": [
+            "Reanalysis",
+            "Mars500",
+            "experiment",
+            "reveals",
+            "common",
+            "gut",
+            "microbiome",
+            "alterations",
+            "astronauts",
+            "induced",
+            "long",
+            "duration",
+            "confinement"
+          ],
+          "lemmas": [
+            "reanalysis",
+            "Mars500",
+            "experiment",
+            "reveal",
+            "common",
+            "gut",
+            "microbiome",
+            "alteration",
+            "astronaut",
+            "induce",
+            "long",
+            "duration",
+            "confinement"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 13
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "confinement",
+        "start": 118,
+        "end": 129,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Isolation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared with conventional stresses in addition to a core \"DSB\" response specific to clastogenic treatments",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5116466/",
+    "pmc_id": "PMC5116466",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared with conventional stresses in addition to a core \"DSB\" response specific to clastogenic treatments ",
+      "cleaned": "High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared with conventional stresses in addition to a core \"DSB\" response specific to clastogenic treatments",
+      "sentences": [
+        {
+          "original": "High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared with conventional stresses in addition to a core \"DSB\" response specific to clastogenic treatments",
+          "tokens": [
+            "High",
+            "atomic",
+            "weight",
+            "high",
+            "energy",
+            "radiation",
+            "HZE",
+            "induces",
+            "transcriptional",
+            "responses",
+            "shared",
+            "conventional",
+            "stresses",
+            "addition",
+            "core",
+            "DSB",
+            "response",
+            "specific",
+            "clastogenic",
+            "treatments"
+          ],
+          "lemmas": [
+            "high",
+            "atomic",
+            "weight",
+            "high",
+            "energy",
+            "radiation",
+            "HZE",
+            "induce",
+            "transcriptional",
+            "response",
+            "share",
+            "conventional",
+            "stress",
+            "addition",
+            "core",
+            "dsb",
+            "response",
+            "specific",
+            "clastogenic",
+            "treatment"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 20
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Genomic stability in response to high versus low linear energy transfer radiation in Arabidopsis thaliana",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4033213/",
+    "pmc_id": "PMC4033213",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Genomic stability in response to high versus low linear energy transfer radiation in Arabidopsis thaliana ",
+      "cleaned": "Genomic stability in response to high versus low linear energy transfer radiation in Arabidopsis thaliana",
+      "sentences": [
+        {
+          "original": "Genomic stability in response to high versus low linear energy transfer radiation in Arabidopsis thaliana",
+          "tokens": [
+            "Genomic",
+            "stability",
+            "response",
+            "high",
+            "versus",
+            "low",
+            "linear",
+            "energy",
+            "transfer",
+            "radiation",
+            "Arabidopsis",
+            "thaliana"
+          ],
+          "lemmas": [
+            "genomic",
+            "stability",
+            "response",
+            "high",
+            "versus",
+            "low",
+            "linear",
+            "energy",
+            "transfer",
+            "radiation",
+            "Arabidopsis",
+            "thaliana"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "ADP",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Acceleration profiles and processing methods for parabolic flight.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6081456/",
+    "pmc_id": "PMC6081456",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Acceleration profiles and processing methods for parabolic flight. ",
+      "cleaned": "Acceleration profiles and processing methods for parabolic flight.",
+      "sentences": [
+        {
+          "original": "Acceleration profiles and processing methods for parabolic flight.",
+          "tokens": [
+            "Acceleration",
+            "profiles",
+            "processing",
+            "methods",
+            "parabolic",
+            "flight"
+          ],
+          "lemmas": [
+            "acceleration",
+            "profile",
+            "processing",
+            "method",
+            "parabolic",
+            "flight"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Cytoskeleton structure and total methylation of mouse cardiac and lung tissue during space flight.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5955502/",
+    "pmc_id": "PMC5955502",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Cytoskeleton structure and total methylation of mouse cardiac and lung tissue during space flight. ",
+      "cleaned": "Cytoskeleton structure and total methylation of mouse cardiac and lung tissue during space flight.",
+      "sentences": [
+        {
+          "original": "Cytoskeleton structure and total methylation of mouse cardiac and lung tissue during space flight.",
+          "tokens": [
+            "Cytoskeleton",
+            "structure",
+            "total",
+            "methylation",
+            "mouse",
+            "cardiac",
+            "lung",
+            "tissue",
+            "space",
+            "flight"
+          ],
+          "lemmas": [
+            "Cytoskeleton",
+            "structure",
+            "total",
+            "methylation",
+            "mouse",
+            "cardiac",
+            "lung",
+            "tissue",
+            "space",
+            "flight"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space flight",
+        "start": 85,
+        "end": 97,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10285634/",
+    "pmc_id": "PMC10285634",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target ",
+      "cleaned": "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target",
+      "sentences": [
+        {
+          "original": "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target",
+          "tokens": [
+            "countering",
+            "muscle",
+            "bone",
+            "loss",
+            "spaceflight",
+            "GSK3",
+            "potential",
+            "target"
+          ],
+          "lemmas": [
+            "counter",
+            "muscle",
+            "bone",
+            "loss",
+            "spaceflight",
+            "GSK3",
+            "potential",
+            "target"
+          ],
+          "pos_tags": [
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "PHENOTYPE",
+        "text": "bone loss",
+        "start": 29,
+        "end": 38,
+        "confidence": 0.88,
+        "source": "Pattern",
+        "canonical_name": "Bone Loss"
+      },
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 44,
+        "end": 55,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "PHENOTYPE": 1,
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Spaceflight increases sarcoplasmic reticulum Ca2+ leak and this cannot be counteracted with BuOE treatment",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11271499/",
+    "pmc_id": "PMC11271499",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Spaceflight increases sarcoplasmic reticulum Ca2+ leak and this cannot be counteracted with BuOE treatment ",
+      "cleaned": "Spaceflight increases sarcoplasmic reticulum Ca2+ leak and this cannot be counteracted with BuOE treatment",
+      "sentences": [
+        {
+          "original": "Spaceflight increases sarcoplasmic reticulum Ca2+ leak and this cannot be counteracted with BuOE treatment",
+          "tokens": [
+            "Spaceflight",
+            "increases",
+            "sarcoplasmic",
+            "reticulum",
+            "Ca2",
+            "leak",
+            "counteracted",
+            "BuOE",
+            "treatment"
+          ],
+          "lemmas": [
+            "spaceflight",
+            "increase",
+            "sarcoplasmic",
+            "reticulum",
+            "ca2",
+            "leak",
+            "counteract",
+            "BuOE",
+            "treatment"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 0,
+        "end": 11,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062551/",
+    "pmc_id": "PMC6062551",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties ",
+      "cleaned": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties",
+      "sentences": [
+        {
+          "original": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties",
+          "tokens": [
+            "Cardiovascular",
+            "progenitor",
+            "cells",
+            "cultured",
+            "aboard",
+            "International",
+            "Space",
+            "Station",
+            "exhibit",
+            "altered",
+            "developmental",
+            "functional",
+            "properties"
+          ],
+          "lemmas": [
+            "cardiovascular",
+            "progenitor",
+            "cell",
+            "culture",
+            "aboard",
+            "International",
+            "Space",
+            "Station",
+            "exhibit",
+            "alter",
+            "developmental",
+            "functional",
+            "property"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "ADP",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 13
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Inter-agency perspective: Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9832585/",
+    "pmc_id": "PMC9832585",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Inter-agency perspective: Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments ",
+      "cleaned": "Inter-agency perspective: Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments",
+      "sentences": [
+        {
+          "original": "Inter-agency perspective:",
+          "tokens": [
+            "Inter",
+            "agency",
+            "perspective"
+          ],
+          "lemmas": [
+            "inter",
+            "agency",
+            "perspective"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 3
+        },
+        {
+          "original": "Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments",
+          "tokens": [
+            "Translating",
+            "advances",
+            "biomarker",
+            "discovery",
+            "medical",
+            "countermeasures",
+            "development",
+            "terrestrial",
+            "space",
+            "radiation",
+            "environments"
+          ],
+          "lemmas": [
+            "translate",
+            "advance",
+            "biomarker",
+            "discovery",
+            "medical",
+            "countermeasure",
+            "development",
+            "terrestrial",
+            "space",
+            "radiation",
+            "environment"
+          ],
+          "pos_tags": [
+            "VERB",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 2
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space radiation",
+        "start": 134,
+        "end": 149,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Cosmic Radiation"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7829349/",
+    "pmc_id": "PMC7829349",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity ",
+      "cleaned": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity",
+      "sentences": [
+        {
+          "original": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity",
+          "tokens": [
+            "Genomic",
+            "functional",
+            "characterization",
+            "Enterococcus",
+            "faecalis",
+            "isolates",
+            "recovered",
+            "International",
+            "Space",
+            "Station",
+            "potential",
+            "pathogenicity"
+          ],
+          "lemmas": [
+            "genomic",
+            "functional",
+            "characterization",
+            "enterococcus",
+            "faecali",
+            "isolate",
+            "recover",
+            "International",
+            "Space",
+            "Station",
+            "potential",
+            "pathogenicity"
+          ],
+          "pos_tags": [
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Evaluation of in vitro macrophage differentiation during space flight.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3570223/",
+    "pmc_id": "PMC3570223",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Evaluation of in vitro macrophage differentiation during space flight. ",
+      "cleaned": "Evaluation of in vitro macrophage differentiation during space flight.",
+      "sentences": [
+        {
+          "original": "Evaluation of in vitro macrophage differentiation during space flight.",
+          "tokens": [
+            "Evaluation",
+            "vitro",
+            "macrophage",
+            "differentiation",
+            "space",
+            "flight"
+          ],
+          "lemmas": [
+            "evaluation",
+            "vitro",
+            "macrophage",
+            "differentiation",
+            "space",
+            "flight"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "X",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 6
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space flight",
+        "start": 57,
+        "end": 69,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "Identification of critical host mitochondrion-associated genes during Ehrlichia chaffeensis infections",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3457586/",
+    "pmc_id": "PMC3457586",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Identification of critical host mitochondrion-associated genes during Ehrlichia chaffeensis infections ",
+      "cleaned": "Identification of critical host mitochondrion-associated genes during Ehrlichia chaffeensis infections",
+      "sentences": [
+        {
+          "original": "Identification of critical host mitochondrion-associated genes during Ehrlichia chaffeensis infections",
+          "tokens": [
+            "Identification",
+            "critical",
+            "host",
+            "mitochondrion",
+            "associated",
+            "genes",
+            "Ehrlichia",
+            "chaffeensis",
+            "infections"
+          ],
+          "lemmas": [
+            "identification",
+            "critical",
+            "host",
+            "mitochondrion",
+            "associate",
+            "gene",
+            "Ehrlichia",
+            "chaffeensis",
+            "infection"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3558598/",
+    "pmc_id": "PMC3558598",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster. ",
+      "cleaned": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster.",
+      "sentences": [
+        {
+          "original": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster.",
+          "tokens": [
+            "Ehrlichia",
+            "chaffeensis",
+            "replication",
+            "sites",
+            "adult",
+            "Drosophila",
+            "melanogaster"
+          ],
+          "lemmas": [
+            "ehrlichia",
+            "chaffeensis",
+            "replication",
+            "site",
+            "adult",
+            "Drosophila",
+            "melanogaster"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Development and characterization of two porcine monocyte-derived macrophage cell lines.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11046949/",
+    "pmc_id": "PMC11046949",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Development and characterization of two porcine monocyte-derived macrophage cell lines. ",
+      "cleaned": "Development and characterization of two porcine monocyte-derived macrophage cell lines.",
+      "sentences": [
+        {
+          "original": "Development and characterization of two porcine monocyte-derived macrophage cell lines.",
+          "tokens": [
+            "Development",
+            "characterization",
+            "porcine",
+            "monocyte",
+            "derived",
+            "macrophage",
+            "cell",
+            "lines"
+          ],
+          "lemmas": [
+            "development",
+            "characterization",
+            "porcine",
+            "monocyte",
+            "derive",
+            "macrophage",
+            "cell",
+            "line"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 8
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Understanding macrophage differentiation during space flight: The importance of ground-based experiments before space flight",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3890248/",
+    "pmc_id": "PMC3890248",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Understanding macrophage differentiation during space flight: The importance of ground-based experiments before space flight ",
+      "cleaned": "Understanding macrophage differentiation during space flight: The importance of ground-based experiments before space flight",
+      "sentences": [
+        {
+          "original": "Understanding macrophage differentiation during space flight: The importance of ground-based experiments before space flight",
+          "tokens": [
+            "Understanding",
+            "macrophage",
+            "differentiation",
+            "space",
+            "flight",
+            "importance",
+            "ground",
+            "based",
+            "experiments",
+            "space",
+            "flight"
+          ],
+          "lemmas": [
+            "understand",
+            "macrophage",
+            "differentiation",
+            "space",
+            "flight",
+            "importance",
+            "ground",
+            "base",
+            "experiment",
+            "space",
+            "flight"
+          ],
+          "pos_tags": [
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 11
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "space flight",
+        "start": 48,
+        "end": 60,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      },
+      {
+        "type": "STRESSOR",
+        "text": "space flight",
+        "start": 112,
+        "end": 124,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 2,
+    "entity_types": {
+      "STRESSOR": 2
+    }
+  },
+  {
+    "title": "Bone marrow leptin signaling mediates obesity-associated adipose tissue inflammation in male mice.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3868799/",
+    "pmc_id": "PMC3868799",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Bone marrow leptin signaling mediates obesity-associated adipose tissue inflammation in male mice. ",
+      "cleaned": "Bone marrow leptin signaling mediates obesity-associated adipose tissue inflammation in male mice.",
+      "sentences": [
+        {
+          "original": "Bone marrow leptin signaling mediates obesity-associated adipose tissue inflammation in male mice.",
+          "tokens": [
+            "Bone",
+            "marrow",
+            "leptin",
+            "signaling",
+            "mediates",
+            "obesity",
+            "associated",
+            "adipose",
+            "tissue",
+            "inflammation",
+            "male",
+            "mice"
+          ],
+          "lemmas": [
+            "bone",
+            "marrow",
+            "leptin",
+            "signal",
+            "mediate",
+            "obesity",
+            "associate",
+            "adipose",
+            "tissue",
+            "inflammation",
+            "male",
+            "mouse"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960141/",
+    "pmc_id": "PMC4960141",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line ",
+      "cleaned": "Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line",
+      "sentences": [
+        {
+          "original": "Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line",
+          "tokens": [
+            "Establishment",
+            "characterization",
+            "DB-1",
+            "leptin",
+            "receptor",
+            "deficient",
+            "murine",
+            "macrophage",
+            "cell",
+            "line"
+          ],
+          "lemmas": [
+            "establishment",
+            "characterization",
+            "db-1",
+            "leptin",
+            "receptor",
+            "deficient",
+            "murine",
+            "macrophage",
+            "cell",
+            "line"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "NUM",
+            "ADJ",
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736159/",
+    "pmc_id": "PMC5736159",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station. ",
+      "cleaned": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station.",
+      "sentences": [
+        {
+          "original": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station.",
+          "tokens": [
+            "Validation",
+            "methods",
+            "assess",
+            "immunoglobulin",
+            "gene",
+            "repertoire",
+            "tissues",
+            "obtained",
+            "mice",
+            "International",
+            "Space",
+            "Station"
+          ],
+          "lemmas": [
+            "validation",
+            "method",
+            "assess",
+            "immunoglobulin",
+            "gene",
+            "repertoire",
+            "tissue",
+            "obtain",
+            "mouse",
+            "International",
+            "Space",
+            "Station"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "NOUN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5761896/",
+    "pmc_id": "PMC5761896",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing ",
+      "cleaned": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing",
+      "sentences": [
+        {
+          "original": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing",
+          "tokens": [
+            "Characterization",
+            "naive",
+            "murine",
+            "antibody",
+            "repertoire",
+            "unamplified",
+            "high",
+            "throughput",
+            "sequencing"
+          ],
+          "lemmas": [
+            "characterization",
+            "naive",
+            "murine",
+            "antibody",
+            "repertoire",
+            "unamplified",
+            "high",
+            "throughput",
+            "sequence"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "ADJ",
+            "ADJ",
+            "NOUN",
+            "VERB"
+          ],
+          "token_count": 9
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5826609/",
+    "pmc_id": "PMC5826609",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice ",
+      "cleaned": "Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice",
+      "sentences": [
+        {
+          "original": "Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice",
+          "tokens": [
+            "Effects",
+            "spaceflight",
+            "immunoglobulin",
+            "repertoire",
+            "unimmunized",
+            "C57BL/6",
+            "mice"
+          ],
+          "lemmas": [
+            "effect",
+            "spaceflight",
+            "immunoglobulin",
+            "repertoire",
+            "unimmunized",
+            "C57BL/6",
+            "mouse"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "ADJ",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "spaceflight",
+        "start": 11,
+        "end": 22,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  },
+  {
+    "title": "A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366624/",
+    "pmc_id": "PMC6366624",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing. ",
+      "cleaned": "A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing.",
+      "sentences": [
+        {
+          "original": "A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing.",
+          "tokens": [
+            "comparison",
+            "unamplified",
+            "massively",
+            "multiplexed",
+            "PCR",
+            "amplification",
+            "murine",
+            "antibody",
+            "repertoire",
+            "sequencing"
+          ],
+          "lemmas": [
+            "comparison",
+            "unamplified",
+            "massively",
+            "multiplexed",
+            "PCR",
+            "amplification",
+            "murine",
+            "antibody",
+            "repertoire",
+            "sequence"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "ADV",
+            "ADJ",
+            "PROPN",
+            "NOUN",
+            "PROPN",
+            "NOUN",
+            "NOUN",
+            "VERB"
+          ],
+          "token_count": 10
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [],
+    "entity_count": 0,
+    "entity_types": {}
+  },
+  {
+    "title": "Effects of skeletal unloading on the antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11929063/",
+    "pmc_id": "PMC11929063",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Effects of skeletal unloading on the antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice. ",
+      "cleaned": "Effects of skeletal unloading on the antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+      "sentences": [
+        {
+          "original": "Effects of skeletal unloading on the antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+          "tokens": [
+            "Effects",
+            "skeletal",
+            "unloading",
+            "antibody",
+            "repertoire",
+            "tetanus",
+            "toxoid",
+            "and/or",
+            "CpG",
+            "treated",
+            "C57BL/6J",
+            "mice"
+          ],
+          "lemmas": [
+            "effect",
+            "skeletal",
+            "unloading",
+            "antibody",
+            "repertoire",
+            "tetanus",
+            "toxoid",
+            "and/or",
+            "cpg",
+            "treat",
+            "C57BL/6J",
+            "mouse"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "CCONJ",
+            "ADJ",
+            "VERB",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 12
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "PHENOTYPE",
+        "text": "skeletal unloading",
+        "start": 11,
+        "end": 29,
+        "confidence": 0.88,
+        "source": "Pattern",
+        "canonical_name": "Bone Loss"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "PHENOTYPE": 1
+    }
+  },
+  {
+    "title": "Effects of skeletal unloading on the bone marrow antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11929063/",
+    "pmc_id": "PMC11929063",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "Effects of skeletal unloading on the bone marrow antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice. ",
+      "cleaned": "Effects of skeletal unloading on the bone marrow antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+      "sentences": [
+        {
+          "original": "Effects of skeletal unloading on the bone marrow antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+          "tokens": [
+            "Effects",
+            "skeletal",
+            "unloading",
+            "bone",
+            "marrow",
+            "antibody",
+            "repertoire",
+            "tetanus",
+            "toxoid",
+            "and/or",
+            "CpG",
+            "treated",
+            "C57BL/6J",
+            "mice"
+          ],
+          "lemmas": [
+            "effect",
+            "skeletal",
+            "unloading",
+            "bone",
+            "marrow",
+            "antibody",
+            "repertoire",
+            "tetanus",
+            "toxoid",
+            "and/or",
+            "cpg",
+            "treat",
+            "C57BL/6J",
+            "mouse"
+          ],
+          "pos_tags": [
+            "NOUN",
+            "ADJ",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "NOUN",
+            "CCONJ",
+            "ADJ",
+            "VERB",
+            "PROPN",
+            "NOUN"
+          ],
+          "token_count": 14
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "PHENOTYPE",
+        "text": "skeletal unloading",
+        "start": 11,
+        "end": 29,
+        "confidence": 0.88,
+        "source": "Pattern",
+        "canonical_name": "Bone Loss"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "PHENOTYPE": 1
+    }
+  },
+  {
+    "title": "An Analysis of the Effects of Spaceflight and Vaccination on Antibody Repertoire Diversity",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10996920/",
+    "pmc_id": "PMC10996920",
+    "source": "SB_publications_curated",
+    "full_text_available": true,
+    "curated": true,
+    "publication_year_min": 2010,
+    "preprocessed": {
+      "original": "An Analysis of the Effects of Spaceflight and Vaccination on Antibody Repertoire Diversity ",
+      "cleaned": "An Analysis of the Effects of Spaceflight and Vaccination on Antibody Repertoire Diversity",
+      "sentences": [
+        {
+          "original": "An Analysis of the Effects of Spaceflight and Vaccination on Antibody Repertoire Diversity",
+          "tokens": [
+            "Analysis",
+            "Effects",
+            "Spaceflight",
+            "Vaccination",
+            "Antibody",
+            "Repertoire",
+            "Diversity"
+          ],
+          "lemmas": [
+            "Analysis",
+            "Effects",
+            "Spaceflight",
+            "Vaccination",
+            "Antibody",
+            "Repertoire",
+            "Diversity"
+          ],
+          "pos_tags": [
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN",
+            "PROPN"
+          ],
+          "token_count": 7
+        }
+      ],
+      "sentence_count": 1
+    },
+    "entities": [
+      {
+        "type": "STRESSOR",
+        "text": "Spaceflight",
+        "start": 30,
+        "end": 41,
+        "confidence": 0.9,
+        "source": "Pattern",
+        "canonical_name": "Spaceflight"
+      }
+    ],
+    "entity_count": 1,
+    "entity_types": {
+      "STRESSOR": 1
+    }
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "start_time": "2025-10-03T14:48:05.447492",
+  "parameters": {
+    "max_papers": 100,
+    "use_curated": true,
+    "use_pubmed": true,
+    "use_genelab": false,
+    "start_date": null,
+    "end_date": null
+  },
+  "stages": {
+    "data_acquisition": {
+      "status": "complete",
+      "papers_acquired": 100,
+      "duration": 3.673588991165161
+    },
+    "text_preprocessing": {
+      "status": "complete",
+      "papers_processed": 100,
+      "duration": 2.250002861022949
+    },
+    "entity_extraction": {
+      "status": "complete",
+      "total_entities": 49,
+      "duration": 10.364690065383911
+    },
+    "relationship_extraction": {
+      "status": "complete",
+      "total_relationships": 9,
+      "duration": 0.750885009765625
+    },
+    "topic_modeling": {
+      "status": "complete",
+      "topics_discovered": 0,
+      "duration": 0.0007731914520263672
+    },
+    "entity_resolution": {
+      "status": "complete",
+      "entities_resolved": 0,
+      "duration": 0.0014300346374511719
+    },
+    "ontology_alignment": {
+      "status": "complete",
+      "entities_aligned": 7,
+      "duration": 1.807499885559082
+    },
+    "neo4j_loading": {
+      "status": "complete",
+      "graph_statistics": {
+        "nodes": {
+          "Paper": 98,
+          "Stressor": 6,
+          "Phenotype": 2
+        },
+        "total_nodes": 106,
+        "relationships": {
+          "MENTIONS": 42
+        },
+        "total_relationships": 42
+      },
+      "duration": 7.278584241867065
+    }
+  },
+  "end_time": "2025-10-03T14:48:31.583351",
+  "total_duration": 26.138874769210815
+}

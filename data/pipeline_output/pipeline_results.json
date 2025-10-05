@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "start_time": "2025-10-02T11:36:44.009892",
+  "parameters": {
+    "max_papers": 50,
+    "use_curated": true,
+    "use_pubmed": false,
+    "use_genelab": false,
+    "start_date": null,
+    "end_date": null
+  },
+  "stages": {
+    "data_acquisition": {
+      "status": "complete",
+      "papers_acquired": 50,
+      "duration": 1.8319811820983887
+    },
+    "text_preprocessing": {
+      "status": "complete",
+      "papers_processed": 50,
+      "duration": 0.7078781127929688
+    }
+  },
+  "error": "Object of type float32 is not JSON serializable",
+  "end_time": "2025-10-02T11:36:50.634029"
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.85
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21"
+    ],
+    "extraction_methods": [
+      "dependency_parsing"
+    ],
+    "source": "Microgravity",
+    "source_type": "STRESSOR",
+    "target": "bone loss",
+    "target_type": "PHENOTYPE",
+    "relation_type": "UPREGULATES",
+    "avg_confidence": 0.85,
+    "final_confidence": 0.87
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.5
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21"
+    ],
+    "extraction_methods": [
+      "co-occurrence"
+    ],
+    "source": "Microgravity",
+    "source_type": "STRESSOR",
+    "target": "bone loss",
+    "target_type": "PHENOTYPE",
+    "relation_type": "ASSOCIATED_WITH",
+    "avg_confidence": 0.5,
+    "final_confidence": 0.52
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.5
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice."
+    ],
+    "extraction_methods": [
+      "co-occurrence"
+    ],
+    "source": "Muscle atrophy",
+    "source_type": "PHENOTYPE",
+    "target": "spaceflight",
+    "target_type": "STRESSOR",
+    "relation_type": "ASSOCIATED_WITH",
+    "avg_confidence": 0.5,
+    "final_confidence": 0.52
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.8
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation"
+    ],
+    "extraction_methods": [
+      "dependency_parsing"
+    ],
+    "source": "cosmic radiation",
+    "source_type": "STRESSOR",
+    "target": "cosmic radiation",
+    "target_type": "STRESSOR",
+    "relation_type": "CAUSES",
+    "avg_confidence": 0.8,
+    "final_confidence": 0.8200000000000001
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.85
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs"
+    ],
+    "extraction_methods": [
+      "dependency_parsing"
+    ],
+    "source": "spaceflight",
+    "source_type": "STRESSOR",
+    "target": "spaceflight",
+    "target_type": "STRESSOR",
+    "relation_type": "DOWNREGULATES",
+    "avg_confidence": 0.85,
+    "final_confidence": 0.87
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.5
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Innate immune responses of Drosophila melanogaster are altered by spaceflight."
+    ],
+    "extraction_methods": [
+      "co-occurrence"
+    ],
+    "source": "spaceflight",
+    "source_type": "STRESSOR",
+    "target": ".",
+    "target_type": "LABEL_1",
+    "relation_type": "ASSOCIATED_WITH",
+    "avg_confidence": 0.5,
+    "final_confidence": 0.52
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.85
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle"
+    ],
+    "extraction_methods": [
+      "dependency_parsing"
+    ],
+    "source": "Spaceflight",
+    "source_type": "STRESSOR",
+    "target": "Spaceflight",
+    "target_type": "STRESSOR",
+    "relation_type": "UPREGULATES",
+    "avg_confidence": 0.85,
+    "final_confidence": 0.87
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.85
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement"
+    ],
+    "extraction_methods": [
+      "dependency_parsing"
+    ],
+    "source": "confinement",
+    "source_type": "STRESSOR",
+    "target": "confinement",
+    "target_type": "STRESSOR",
+    "relation_type": "UPREGULATES",
+    "avg_confidence": 0.85,
+    "final_confidence": 0.87
+  },
+  {
+    "count": 1,
+    "confidence_scores": [
+      0.5
+    ],
+    "pmids": [
+      null
+    ],
+    "evidence_sentences": [
+      "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target"
+    ],
+    "extraction_methods": [
+      "co-occurrence"
+    ],
+    "source": "bone loss",
+    "source_type": "PHENOTYPE",
+    "target": "spaceflight",
+    "target_type": "STRESSOR",
+    "relation_type": "ASSOCIATED_WITH",
+    "avg_confidence": 0.5,
+    "final_confidence": 0.52
+  }
+]
