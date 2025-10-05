@@ -28,7 +28,7 @@ umap-learn==0.5.5
 hdbscan==0.8.33
 
 # OpenAI & LangChain
-openai==1.3.7
+openai==1.6.1
 langchain==0.0.340
 langchain-openai==0.0.2
 tiktoken==0.5.2
