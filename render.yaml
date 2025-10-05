@@ -1,0 +1,33 @@
+services:
+  # Backend API Service
+  - type: web
+    name: astrobiomers-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: ./backend
+    plan: free  # Change to 'starter' for production
+    branch: main
+    region: singapore
+    healthCheckPath: /health
+    envVars:
+      - key: NEO4J_URI
+        sync: false  # Set manually in Render dashboard
+      - key: NEO4J_USER
+        sync: false
+      - key: NEO4J_PASSWORD
+        sync: false
+      - key: NEO4J_DATABASE
+        value: neo4j
+      - key: CORS_ORIGINS
+        value: "*"  # Update after frontend deployment
+
+  # Frontend Static Site (uncomment after backend is deployed)
+  # - type: web
+  #   name: astrobiomers-frontend
+  #   env: static
+  #   buildCommand: cd "frontend/new frontend" && npm install && npm run build
+  #   staticPublishPath: frontend/new frontend/dist
+  #   branch: main
+  #   envVars:
+  #     - key: VITE_API_URL
+  #       value: https://astrobiomers-backend.onrender.com/api

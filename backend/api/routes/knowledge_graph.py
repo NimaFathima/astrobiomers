@@ -255,13 +255,16 @@ async def get_knowledge_graph(q: str = Query(..., min_length=1)):
         qe = get_query_engine()
         
         # Search for entities and papers matching the query
-        # Exclude demo papers and deduplicate
+        # Exclude demo papers (check for NULL first to avoid issues)
         search_query = """
         MATCH (n)
         WHERE (toLower(n.name) CONTAINS toLower($query) 
            OR toLower(n.title) CONTAINS toLower($query) 
            OR toLower(n.description) CONTAINS toLower($query))
-        AND NOT (n.id STARTS WITH 'DEMO' OR n.pmid STARTS WITH 'DEMO')
+        AND NOT (
+            (n.id IS NOT NULL AND n.id STARTS WITH 'DEMO') OR 
+            (n.pmid IS NOT NULL AND n.pmid STARTS WITH 'DEMO')
+        )
         WITH DISTINCT 
             CASE 
                 WHEN 'Paper' IN labels(n) THEN coalesce(n.id, n.pmid, toString(id(n)))
@@ -274,7 +277,10 @@ async def get_knowledge_graph(q: str = Query(..., min_length=1)):
         UNWIND nodes as nodeData
         WITH nodeData.node as n, nodeData.key as nKey
         OPTIONAL MATCH (n)-[r]-(m)
-        WHERE NOT (m.id STARTS WITH 'DEMO' OR m.pmid STARTS WITH 'DEMO')
+        WHERE NOT (
+            (m.id IS NOT NULL AND m.id STARTS WITH 'DEMO') OR 
+            (m.pmid IS NOT NULL AND m.pmid STARTS WITH 'DEMO')
+        )
         RETURN DISTINCT n, r, m, nKey
         """
         

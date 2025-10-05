@@ -31,7 +31,7 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS middleware
+# CORS middleware - allow production and development origins
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -41,6 +41,9 @@ app.add_middleware(
         "http://localhost:8081",
         "http://localhost:8082",
         "http://localhost:8083",
+        "https://astrobiomers.onrender.com",  # Production frontend
+        "https://astrobiomers-frontend.onrender.com",  # Alternative frontend URL
+        "*",  # Allow all for initial testing (remove after deployment works)
     ],  # Frontend origins
     allow_credentials=True,
     allow_methods=["*"],
