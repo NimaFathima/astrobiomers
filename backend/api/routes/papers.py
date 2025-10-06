@@ -4,11 +4,14 @@ API Routes - Papers Endpoint
 
 from fastapi import APIRouter, HTTPException, Query, Depends
 from typing import Optional
+import logging
 
 from api.models.schemas import PaperResponse, PaperListResponse
 from api.services.neo4j_service import Neo4jService
 from knowledge_graph.config import config
+from knowledge_graph.summarization import get_summarizer
 
+logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/papers", tags=["papers"])
 
 
@@ -144,4 +147,121 @@ async def get_related_papers(
         "paper_id": paper_id,
         "related_papers": related,
         "total": len(related)
+    }
+
+
+@router.get("/{paper_id}/summary")
+async def get_paper_summary(
+    paper_id: str,
+    model: str = Query("bart", description="Model to use: 'bart' or 'pegasus'"),
+    max_length: int = Query(150, ge=50, le=500, description="Maximum summary length"),
+    neo4j: Neo4jService = Depends(get_neo4j_service)
+):
+    """
+    Generate AI-powered summary of a paper using BART or PEGASUS.
+    
+    - **paper_id**: PubMed ID (PMID)
+    - **model**: Summarization model ('bart' or 'pegasus')
+    - **max_length**: Maximum length of summary in tokens
+    
+    Returns:
+        Dict with 'summary', 'model_used', 'key_points', metadata
+    """
+    # Get paper
+    paper = neo4j.get_paper_by_id(paper_id)
+    if not paper:
+        raise HTTPException(status_code=404, detail=f"Paper {paper_id} not found")
+    
+    abstract = paper.get('abstract', '')
+    
+    if not abstract or len(abstract.strip()) < 50:
+        raise HTTPException(
+            status_code=400,
+            detail="Paper abstract too short or missing"
+        )
+    
+    try:
+        # Select model
+        model_name = "facebook/bart-large-cnn" if model.lower() == "bart" else "google/pegasus-xsum"
+        
+        logger.info(f"Generating summary for paper {paper_id} using {model_name}")
+        
+        # Get summarizer
+        summarizer = get_summarizer(model_name=model_name)
+        
+        # Generate summary
+        result = summarizer.summarize_abstract(
+            abstract,
+            max_length=max_length,
+            min_length=max(30, max_length // 3)
+        )
+        
+        # Generate key points
+        key_points = summarizer.generate_key_points(abstract, num_points=3)
+        
+        logger.info(f"✅ Summary generated for paper {paper_id}")
+        
+        return {
+            "paper_id": paper_id,
+            "paper_title": paper.get('title', ''),
+            "summary": result['summary'],
+            "key_points": key_points,
+            "model_used": result['model_used'],
+            "original_length": result.get('original_length', len(abstract)),
+            "summary_length": result.get('summary_length', len(result['summary'])),
+            "compression_ratio": result.get('length_ratio', 0),
+            "parameters": {
+                "model": model,
+                "max_length": max_length
+            }
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Summarization failed for paper {paper_id}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to generate summary: {str(e)}"
+        )
+
+
+@router.post("/{paper_id}/summarize/batch")
+async def batch_summarize(
+    paper_ids: list[str],
+    model: str = Query("bart", description="Model to use"),
+    neo4j: Neo4jService = Depends(get_neo4j_service)
+):
+    """
+    Generate summaries for multiple papers at once.
+    
+    - **paper_ids**: List of paper PMIDs
+    - **model**: Summarization model ('bart' or 'pegasus')
+    
+    Returns:
+        List of summaries with metadata
+    """
+    if len(paper_ids) > 50:
+        raise HTTPException(
+            status_code=400,
+            detail="Maximum 50 papers per batch request"
+        )
+    
+    summaries = []
+    errors = []
+    
+    for paper_id in paper_ids:
+        try:
+            summary = await get_paper_summary(paper_id, model=model, neo4j=neo4j)
+            summaries.append(summary)
+        except Exception as e:
+            errors.append({
+                "paper_id": paper_id,
+                "error": str(e)
+            })
+    
+    return {
+        "summaries": summaries,
+        "errors": errors,
+        "total_requested": len(paper_ids),
+        "successful": len(summaries),
+        "failed": len(errors)
     }
